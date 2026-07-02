@@ -394,9 +394,9 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
-
+- LinkedIn Post URL: **https://www.linkedin.com/posts/peace-offor-aa736a147_devops-git-github-ugcPost-7478434369045630976-89Kg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ**  
+- Blog / Medium : **(https://medium.com/@poffor762/my-first-week-in-the-devops-micro-internship-cohort-3-lessons-beyond-git-and-github-a5df809422f6?sharedUserId=poffor762)**  
+- Blog / Twitter : **(https://x.com/girle_pea/status/2072700232249274869?s=46&t=GvsF1YPuhxtQba7dpNm_PQ)**  
 ---
 
 ## 📌 About DMI & CloudAdvisory
