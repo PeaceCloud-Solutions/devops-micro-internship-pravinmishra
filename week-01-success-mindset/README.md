@@ -162,8 +162,7 @@ Today, Peace is recognized not just for technical expertise but for leadership, 
 ### Public Link
 
 Paste your link here:
-https://medium.com/@poffor762/the-journey-of-a-devops-engineer-who-built-solutions-with-purpose-e00242675a75
-
+`https://medium.com/@poffor762/the-journey-of-a-devops-engineer-who-built-solutions-with-purpose-e00242675a75`
 ---
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -241,7 +240,7 @@ Choose books that improve:
 ![Assignment 5 Screenshot](screenshots/week-01-screenshot-06.jpg)
 
 7. _The First 90 Days_ by Michael D. Watkins
- ![Assignment 5 Screenshot](screenshots/week-01-screenshot-07.webp)
+ ![Assignment 5 Screenshot](screenshots/week-01-screenshot-07.png)
 
 8. _The Lean Startup_ by Eric Ries
 ![Assignment 5 Screenshot](screenshots/week-01-screenshot-08.jpg)
@@ -375,7 +374,7 @@ Examples:
 
 # Reflection – Week 1
 
-### Biggest insight I got about myself this week
+### Biggest insight I got about myself this week  
 
 This week taught me that I learn best by taking action, not by waiting until I understand everything. Setting up Git, GitHub, Git Bash, and completing the assignments required me to solve unfamiliar problems independently. I realized that every challenge became easier once I started working through it instead of overthinking it. Progress came from consistent execution, not from having perfect knowledge before beginning.
 
@@ -390,9 +389,7 @@ From Monday to Friday, I will dedicate 6:00 PM to 9:00 PM exclusively to the Dev
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
-
-`__________________________`
-
+`https://www.linkedin.com/posts/peace-offor-aa736a147_devops-softwareengineering-github-ugcPost-7478105946355924992-F3bN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 ---
 
 ## 10. Proof of Work
