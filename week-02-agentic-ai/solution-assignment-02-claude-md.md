@@ -34,7 +34,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — Auto-generated CLAUDE.md
 
-[Screenshot 1](screenshots/week-02-assignment-02-screenshot-02.png).
+[Screenshot 2](screenshots/week-02-assignment-02-screenshot-02.png).
 
 ---
 
@@ -48,7 +48,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Customized CLAUDE.md (all 5 sections visible)
 
-[Screenshot 1](screenshots/week-02-assignment-02-screenshot-03.png).
+[Screenshot 3](screenshots/week-02-assignment-02-screenshot-03.png).
 
 ---
 
@@ -62,13 +62,13 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude response with project-specific deployment details
 
-[Screenshot 1](screenshots/week-02-assignment-02-screenshot-04.png).
+[Screenshot 4](screenshots/week-02-assignment-02-screenshot-04.png).
 
 ---
 
 #### Screenshot 5 — Claude response rejecting React/component change based on rules
 
-[Screenshot 1](screenshots/week-02-assignment-02-screenshot-05.png).
+[Screenshot 5](screenshots/week-02-assignment-02-screenshot-05.png).
 
 ---
 
