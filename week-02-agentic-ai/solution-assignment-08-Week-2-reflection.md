@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Screenshot 1](image.png).
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+`https://medium.com/@poffor762/my-biggest-technical-insight-this-week-ai-works-best-when-it-has-context-254f5347c319`
 
 ---
 
@@ -92,8 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
-
+![Screenshot 2](<Screenshot 2026-07-10 114638.png>)
 ---
 
 ### Submission Field
@@ -108,7 +107,7 @@ Paste your LinkedIn post content here
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/peace-offor-aa736a147_devops-cloudcomputing-tech-share-7481292200098807808-imD9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 
 ---
 

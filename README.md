@@ -43,13 +43,13 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Award | Post |
 |------|-------|------|
-| <!-- e.g. Week 03 --> | <!-- 🏆 Champion of the Week --> | <!-- [LinkedIn Post](#) --> |
+| <!-- e.g. Week 03 --> | <!-- 🏆 Champion of the Week --> | <!-- [https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-cloudcomputing-ugcPost-7481288649662263296-WEgb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ](#) |
 
 ### Leaderboard
 
 <!-- Add your cohort leaderboard rank here as you progress -->
 
-> 🥇 Cohort 3 Rank: **#__** <!-- Update this each week -->
+> 🥇 Cohort 3 Rank: **#3rd** <!-- Update this each week -->
 
 ---
 
@@ -135,7 +135,7 @@ Week 02 → Agentic AI with Claude Code
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed| ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_join-the-dmi-devops-micro-internship-share-7477729743216361472-96WQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/week-0-reflection-understanding-the-internet-changed-the-way-i-see-technology-985a4ee5b2f6 |
 | 01 | Success Mindset | ✅ Completed| ✅ Completed| https://www.linkedin.com/posts/peace-offor-aa736a147_devops-softwareengineering-mindset-ugcPost-7478047889144029185-Cei8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/week-1-reflection-the-devops-success-mindset-that-changed-how-i-learn-61b6dd55ddf1 | 
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ⬜ ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-agenticai-claudecode-ugcPost-7481296692026257410-P1MZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ| https://medium.com/@poffor762/my-biggest-technical-insight-this-week-ai-works-best-when-it-has-context-254f5347c319|
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |

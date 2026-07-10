@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — Agents folder structure in VS Code
 
-Add your screenshot here.
+![Screenshot 1](screenshots/week-02-assignment-04-screenshot-01.png).
 
 ---
 
@@ -34,19 +34,19 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The cost optimizer performs a focused task: reviewing Terraform configurations to identify opportunities for reducing infrastructure costs. This work prioritizes speed and efficiency over complex reasoning, making Haiku the better choice. It delivers reliable recommendations while using fewer computational resources, which aligns with the purpose of a cost-focused agent...
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The security auditor is designed to assess infrastructure and report security risks without modifying project files. Restricting it to read-only tools prevents unintended changes during an audit and ensures the integrity of the codebase. This follows the principle of least privilege, where an agent receives only the permissions required to perform its specific responsibility...
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The tf-writer uses inherit so it automatically adopts the model selected for the active Claude Code session. This keeps the agent flexible and ensures consistent behavior across different projects and workflows without requiring changes to its configuration. It also allows the agent to benefit from improvements made to the active model over time...
 
 ---
 
@@ -54,13 +54,13 @@ Add your answer here...
 
 #### Screenshot 2 — security-auditor.md frontmatter
 
-Add your screenshot here.
+![Screenshot 2](screenshots/week-02-assignment-01-screenshot-01.png).
 
 ---
 
 #### Screenshot 3 — cost-optimizer.md frontmatter
 
-Add your screenshot here.
+![Screenshot 3](screenshots/week-02-assignment-04-screenshot-03.png).
 
 ---
 
@@ -74,13 +74,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — Security auditor delegation triggered
 
-Add your screenshot here.
+![Screenshot 4](screenshots/week-02-assignment-04-screenshot-04.png).
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![Screenshot 5](screenshots/week-02-assignment-04-screenshot-05.png).
 
 ---
 
@@ -94,7 +94,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — Cost optimization report output
 
-Add your screenshot here.
+![Screenshot 6](screenshots/week-02-assignment-04-screenshot-06.png)..
 
 ---
 
@@ -111,7 +111,7 @@ Add your screenshot here.
 
 Paste your Google Doc URL here:
 
-`__________________________`
+`https://docs.google.com/document/d/1dUrgDSBdqI9nB-93aRv2ltPVOyCOKayvNiaLW_IiQao/edit?usp=sharing`
 
 ---
 
