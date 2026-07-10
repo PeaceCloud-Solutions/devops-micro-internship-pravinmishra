@@ -111,7 +111,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 Paste your Google Doc URL here:
 
-`https://docs.google.com/document/d/1dUrgDSBdqI9nB-93aRv2ltPVOyCOKayvNiaLW_IiQao/edit?usp=sharing`
+**https://docs.google.com/document/d/1dUrgDSBdqI9nB-93aRv2ltPVOyCOKayvNiaLW_IiQao/edit?usp=sharing**
 
 ---
 
@@ -119,7 +119,7 @@ Paste your Google Doc URL here:
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ---
 

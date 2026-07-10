@@ -39,11 +39,11 @@ This is not a course. It is an internship-style program — real deployments, re
 
 ### Champion of the Week
 
-<!-- If you were named Champion of the Week, add the badge below and link to your LinkedIn post -->
+ If you were named Champion of the Week, add the badge below and link to your LinkedIn post 
 
 | Week | Award | Post |
-|------|-------|------|
-| <!-- e.g. Week 03 --> | <!-- 🏆 Champion of the Week --> | <!-- [https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-cloudcomputing-ugcPost-7481288649662263296-WEgb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ](#) |
+| Week 03 | 🏆Champion of the Week |[https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-cloudcomputing-ugcPost-7481288649662263296-WEgb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ]
+
 
 ### Leaderboard
 

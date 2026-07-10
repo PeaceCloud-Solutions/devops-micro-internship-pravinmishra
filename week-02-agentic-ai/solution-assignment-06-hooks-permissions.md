@@ -92,7 +92,7 @@ Verify that dangerous commands are intercepted before execution by the PreToolUs
 
 Paste your forked repository URL here:
 
-`https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git`
+**https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git**
 
 ---
 

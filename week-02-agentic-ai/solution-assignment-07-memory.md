@@ -91,7 +91,7 @@ Verify that Claude correctly recalls stored memory after a full session reset.
 
 Paste your forked repository URL here:
 
-`https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git`
+**https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git**
 
 ---
 
