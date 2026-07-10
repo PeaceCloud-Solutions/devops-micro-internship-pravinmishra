@@ -54,7 +54,7 @@ You can publish your blog on:
 
 Blog Link:
 
-`https://medium.com/@poffor762/my-biggest-technical-insight-this-week-ai-works-best-when-it-has-context-254f5347c319`
+**https://medium.com/@poffor762/my-biggest-technical-insight-this-week-ai-works-best-when-it-has-context-254f5347c319**
 
 ---
 
@@ -97,12 +97,48 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### Submission Field
 
-LinkedIn Post Content (copy-paste here):
+LinkedIn Post Content (💡  I'm reflecting on how much my perspective on AI and DevOps has evolved, as Week 2 comes to a close.
+
+
+
+◽ This week was more about understanding how to build smarter and more consistent engineering workflows. Working with Claude Code, Skills, and Memory showed me that effective AI-assisted development is driven by clear instructions, reusable workflows, and well-defined project context, not just better prompts.
+
+
+
+◽ One of the biggest lessons I learned is that documentation is an essential part of engineering. Files like CLAUDE.md and project memory help ensure consistency across sessions, while reusable skills simplify repetitive tasks and make workflows more reliable.
+
+
+
+◽ I encountered challenges,  failed commands, configuration issues, and moments where I had to slow down, carefully read the documentation, and troubleshoot step by step. Those experiences strengthened both my technical confidence and my problem-solving approach.
+
+
+
+◽ My biggest takeaway from Week 2 is that becoming a better DevOps Engineer isn't just about learning more commands, it's about building systems, developing disciplined habits, and embracing continuous improvement.
+
+
+
+Its been an incredible learning journey with Pravin Mishra, for creating such a practical and engaging learning experience. I'm equally grateful to our Lead Co-Mentor, Anjana Muthunayake, and our Group Co-Mentors,Bhupendra Bhati, Ranbir Kaur, and Greg Odi, for their continuous guidance, encouragement, and support throughout this journey.
+
+📸 Sharing my Week 2 assignment screenshots below as part of this learning milestone.
+
+
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community 
+
+🔗 ( https://lnkd.in/eKxkzSht ).
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
+
+
+
+ Peace Nwadinachi Offor):
 
 ```
-Paste your LinkedIn post content here
+![Screenshot 2](image-1.png)
 ```
-
+```
+![Screenshot 2](image-2.png)
+```
 ---
 
 ### LinkedIn Post Link:
