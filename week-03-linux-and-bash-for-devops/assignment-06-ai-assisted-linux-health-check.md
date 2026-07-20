@@ -20,13 +20,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-![Screenshot 1](screenshots/week-03-assignment-06-screenshot-01.png).
+![Task 1.A](screenshots/week-03-assignment-06-screenshot-01.png).
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-![Screenshot 2](screenshots/week-03-assignment-06-screenshot-02.png).
+![Task 1.B](screenshots/week-03-assignment-06-screenshot-02.png).
 
 ---
 
@@ -62,7 +62,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-![Screenshot 3](screenshots/week-03-assignment-06-screenshot-03-1.png).
+![Task 2.A](screenshots/week-03-assignment-06-screenshot-03-1.png).
 
 ---
 
@@ -98,7 +98,7 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-![Screenshot 4](screenshots/week-03-assignment-06-screenshot-03.png).
+![Task 3](screenshots/week-03-assignment-06-screenshot-03.png).
 
 ---
 
@@ -134,25 +134,25 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-![Screenshot 5](screenshots/week-03-assignment-06-screenshot-05.png).
+![Task 4.A](screenshots/week-03-assignment-06-screenshot-05.png).
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-![Screenshot 6](screenshots/week-03-assignment-06-screenshot-06.png).
+![Task 4.B](screenshots/week-03-assignment-06-screenshot-06.png).
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-![Screenshot 7](screenshots/week-03-assignment-06-screenshot-07.png).
+![Task 4.C](screenshots/week-03-assignment-06-screenshot-07.png).
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-![Screenshot 8](screenshots/week-03-assignment-06-screenshot-08.png).
+![Task 4.D](screenshots/week-03-assignment-06-screenshot-08.png).
 
 ---
 
@@ -200,13 +200,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-![Screenshot 9](screenshots/week-03-assignment-06-screenshot-09.png).
+![Task 5.A](screenshots/week-03-assignment-06-screenshot-09.png).
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-![Screenshot 10](screenshots/week-03-assignment-06-screenshot-10.png).
+![Task 5.B](screenshots/week-03-assignment-06-screenshot-10.png).
 
 ---
 
@@ -248,13 +248,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-![Screenshot 11](screenshots/week-03-assignment-06-screenshot-11.png).
+![Task 6.A](screenshots/week-03-assignment-06-screenshot-11.png).
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-![Screenshot 12](screenshots/week-03-assignment-06-screenshot-12.png).
+![Task 6.B](screenshots/week-03-assignment-06-screenshot-12.png).
 
 ---
 
@@ -296,19 +296,19 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-![Screenshot 13](screenshots/week-03-assignment-06-screenshot-13.png).
+![Task 7.A](screenshots/week-03-assignment-06-screenshot-13.png).
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-![Screenshot 14](screenshots/week-03-assignment-06-screenshot-14.png).
+![Task 7.B](screenshots/week-03-assignment-06-screenshot-14.png).
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-![Screenshot 15](screenshots/week-03-assignment-06-screenshot-15.png).
+![Task 7.C](screenshots/week-03-assignment-06-screenshot-15.png).
 
 ---
 
@@ -356,25 +356,25 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-![Screenshot 16](screenshots/week-03-assignment-06-screenshot-16.png).
+![Task 8.A](screenshots/week-03-assignment-06-screenshot-16.png).
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-![Screenshot 17](screenshots/week-03-assignment-06-screenshot-17.png).
+![Task 8.B](screenshots/week-03-assignment-06-screenshot-17.png).
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-![Screenshot 18](screenshots/week-03-assignment-06-screenshot-18.png).
+![Task 8.C](screenshots/week-03-assignment-06-screenshot-18.png).
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-![Screenshot 19](screenshots/week-03-assignment-06-screenshot-19.png).
+![Task 8.D](screenshots/week-03-assignment-06-screenshot-19.png).
 
 ---
 

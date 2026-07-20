@@ -548,28 +548,20 @@ Not required for this assignment.
 ## 12. Completion Checklist
 
 Before submission, verify:
-<<<<<<< HEAD
-- [-] `settings.json` created with allow and deny permissions
-- [-] UserPromptSubmit hook added and visible in screenshot
-- [-] PreToolUse hook added and visible in screenshot
-- [-] Destructive prompt test shows Claude was blocked (Screenshot 4)
-- [-] Terraform destroy command test shows it was intercepted (Screenshot 5)
-- [-] `settings.json` committed and visible in GitHub repo
-=======
 
-- [ ] `.claude` folder structure created correctly
-- [ ] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
-- [ ] `pre-tool-guard.sh` created with PreToolUse hook logic
-- [ ] `post-tool-logger.sh` created with PostToolUse logging logic
-- [ ] `settings.json` created with allow and deny permissions
-- [ ] `settings.json` configured to connect all three hooks:
-  - [ ] UserPromptSubmit
-  - [ ] PreToolUse
-  - [ ] PostToolUse
-- [ ] Destructive prompt test shows UserPromptSubmit blocked the request
-- [ ] Terraform destroy command test shows PreToolUse intercepted the command
-- [ ] Terraform validate test shows PostToolUse created the log entry
-- [ ] All required screenshots are captured
->>>>>>> upstream/main
+- [-] `.claude` folder structure created correctly
+- [-] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
+- [-] `pre-tool-guard.sh` created with PreToolUse hook logic
+- [-] `post-tool-logger.sh` created with PostToolUse logging logic
+- [-] `settings.json` created with allow and deny permissions
+- [-] `settings.json` configured to connect all three hooks:
+  - [-] UserPromptSubmit
+  - [-] PreToolUse
+  - [-] PostToolUse
+- [-] Destructive prompt test shows UserPromptSubmit blocked the request
+- [-] Terraform destroy command test shows PreToolUse intercepted the command
+- [-] Terraform validate test shows PostToolUse created the log entry
+- [-] All required screenshots are captured
+
 
 

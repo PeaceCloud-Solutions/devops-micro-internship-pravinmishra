@@ -20,7 +20,7 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 #### Screenshot 0 — Output of `sudo systemctl status nginx --no-pager` showing Active (running)
 
-![Screenshot 0](screenshots/week-03-assignment-04-screenshot-01.png).
+![task 0](screenshots/week-03-assignment-04-screenshot-01.png).
 
 ---
 
@@ -34,7 +34,7 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-![Screenshot 1](screenshots/week-03-assignment-04-screenshot-02.png).
+![Task 1](screenshots/week-03-assignment-04-screenshot-02.png).
 
 ---
 
@@ -48,7 +48,7 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-![Screenshot 2](screenshots/week-03-assignment-04-screenshot-03.png).
+![Task 2](screenshots/week-03-assignment-04-screenshot-03.png).
 
 ---
 
@@ -62,13 +62,13 @@ Deploy the portfolio website to the Nginx web root.
 
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
-![Screenshot 3](screenshots/week-03-assignment-04-screenshot-04.png).
+![Task 3](screenshots/week-03-assignment-04-screenshot-04.png).
 
 ---
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
-![Screenshot 4](screenshots/week-03-assignment-04-screenshot-05.png).
+![Task 4.A](screenshots/week-03-assignment-04-screenshot-05.png).
 
 ---
 
@@ -82,13 +82,13 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-![Screenshot 5](screenshots/week-03-assignment-04-screenshot-06.png).
+![Task 4.B](screenshots/week-03-assignment-04-screenshot-06.png).
 
 ---
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-![Screenshot 6](screenshots/week-03-assignment-04-screenshot-07.png).
+![Task 4.C](screenshots/week-03-assignment-04-screenshot-07.png).
 
 ---
 
@@ -102,13 +102,13 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-![Screenshot 7](screenshots/week-03-assignment-04-screenshot-08.png).
+![Task 5.A](screenshots/week-03-assignment-04-screenshot-08.png).
 
 ---
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-![Screenshot 8](screenshots/week-03-assignment-04-screenshot-09.png).
+![Task 5.B](screenshots/week-03-assignment-04-screenshot-09.png).
 
 ---
 

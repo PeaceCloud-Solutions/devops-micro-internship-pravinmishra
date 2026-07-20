@@ -118,18 +118,21 @@ Prove the logging hook runs after a successful command execution and records Ter
 
 #### Screenshot 8 — Claude running terraform validate successfully
 
-  ![Task 8](screenshots/week-02-assignment-06-screenshot-08.png).
+![Task 8.A](screenshots/week-02-assignment-06-screenshot-08.png).
+
+---
 
 
 #### Screenshot 9 — `.claude/deploy.log` showing the logged command
-  ![Task 9](screenshots/week-02-assignment-06-screenshot-09.png).
+
+![Task 8.B](screenshots/week-02-assignment-06-screenshot-09.png).
 
 ---
 
 # Submission Instructions
 
 Complete all tasks in sequence.
-![alt text](week-02-assignment-06-screenshot-09.png)
+
 ---
 
 ## GitHub Repository URL

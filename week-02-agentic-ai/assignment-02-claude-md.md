@@ -98,7 +98,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 Paste your forked repository URL here:
 
- **https://github.com/PeaceCloud-Solutions/devops-micro-internship-pravinmishra.git**
+`https://github.com/PeaceCloud-Solutions/devops-micro-internship-pravinmishra.git`
 
 ---
 
