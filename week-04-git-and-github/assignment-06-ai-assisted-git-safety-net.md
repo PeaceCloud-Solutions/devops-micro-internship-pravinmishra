@@ -282,8 +282,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 ## Key Learnings
 
-Add 3-5 bullet points on what you learned this week.
--Learned how Git pre-commit hooks automatically prevent risky commits by detecting hardcoded secrets and oversized files before they enter the repository.
+- Learned how Git pre-commit hooks automatically prevent risky commits by detecting hardcoded secrets and oversized files before they enter the repository.
 
 -Built a restricted Claude Code /pr-ready skill that reviews staged changes and drafts Pull Request content without modifying the repository.
 
