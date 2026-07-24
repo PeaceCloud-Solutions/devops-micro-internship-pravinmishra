@@ -198,13 +198,13 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
-Add your screenshot here.
+![Task 6](<screenshots/week 04-assignment 06-screenshot 9.png>).
 
 ---
 
 #### PR Link
 
-Add your PR URL here...
+[PR Link](https://github.com/pravinmishraaws/devops-micro-internship-pravinmishra/pull/76)...
 
 ---
 
@@ -276,17 +276,22 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
+[Linkedin URL](https://www.linkedin.com/posts/peace-offor-aa736a147_devops-git-github-activity-7486446941875204096-NcFj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ)
 
 ---
 
 ## Key Learnings
 
 Add 3-5 bullet points on what you learned this week.
+-Learned how Git pre-commit hooks automatically prevent risky commits by detecting hardcoded secrets and oversized files before they enter the repository.
 
--
--
--
+-Built a restricted Claude Code /pr-ready skill that reviews staged changes and drafts Pull Request content without modifying the repository.
+
+-Understood the difference between fixed-rule automation (Git hooks) and AI-assisted review, and how they complement each other in a secure development workflow.
+
+-Applied the Agentic Loop (Gather - Analyze - Human Act - Verify) to a real Git workflow, reinforcing the importance of human oversight before committing and merging changes.
+
+-Improved my GitHub collaboration skills by working with feature branches, creating a Pull Request against my own fork, and reviewing AI-generated PR content before publishing.
 
 ---
 
@@ -306,25 +311,25 @@ Add 3-5 bullet points on what you learned this week.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+`https://github.com/PeaceCloud-Solutions/devops-micro-internship-pravinmishra.git`
 
 ---
 
 # Completion Checklist
 
-- [ ] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
-- [ ] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
-- [ ] `core.hooksPath` configured to point at `hooks/`
-- [ ] Pre-commit hook shown blocking the risky commit
-- [ ] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
-- [ ] `/pr-ready` run against the risky diff and shown flagging issues
-- [ ] Risky file fixed; `git commit` succeeds cleanly
-- [ ] `/pr-ready` re-run showing a clean report and drafted PR title/description
-- [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
-- [ ] Agentic Loop mapping (Task 7) completed in your own words
-- [ ] LinkedIn post published and URL submitted
-- [ ] All required screenshots added
-- [ ] GitHub repository URL provided
+- [-] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
+- [-] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
+- [-] `core.hooksPath` configured to point at `hooks/`
+- [-] Pre-commit hook shown blocking the risky commit
+- [-] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
+- [-] `/pr-ready` run against the risky diff and shown flagging issues
+- [-] Risky file fixed; `git commit` succeeds cleanly
+- [-] `/pr-ready` re-run showing a clean report and drafted PR title/description
+- [-] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
+- [-] Agentic Loop mapping (Task 7) completed in your own words
+- [-] LinkedIn post published and URL submitted
+- [-] All required screenshots added
+- [-] GitHub repository URL provided
 
 ---
 
