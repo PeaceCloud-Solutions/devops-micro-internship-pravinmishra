@@ -79,8 +79,8 @@ Week 00 → Internet & Networking Basics
  Week 03 → Linux for DevOps 
  [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/)
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
+ Week 04 → Git & GitHub 
+ [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -134,7 +134,7 @@ Week 00 → Internet & Networking Basics
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_devops-softwareengineering-mindset-ugcPost-7478047889144029185-Cei8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/week-1-reflection-the-devops-success-mindset-that-changed-how-i-learn-61b6dd55ddf1 |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-agenticai-claudecode-ugcPost-7481296692026257410-P1MZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/my-biggest-technical-insight-this-week-ai-works-best-when-it-has-context-254f5347c319 |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-linux-activity-7483814176931430401-cNq5?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/what-writing-eight-small-bash-scripts-taught-me-about-automation-1da0163cd46e |
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-git-ugcPost-7486353381746466816-TWv2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/understanding-the-open-source-contribution-workflow-through-my-first-pull-request-bcfe8c7318d8|
+| 04 | Git & GitHub | 🔄 In Progress | 🔄 In Progress| https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-git-ugcPost-7486353381746466816-TWv2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/understanding-the-open-source-contribution-workflow-through-my-first-pull-request-bcfe8c7318d8|
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
