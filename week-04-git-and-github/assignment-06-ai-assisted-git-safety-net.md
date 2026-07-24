@@ -27,7 +27,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
-Add your screenshot here.
+![Task 0](<screenshots/week 04-assignment 06-screenshot 1.png>).
 
 ---
 
@@ -35,7 +35,8 @@ Add your screenshot here.
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+A dedicated branch keeps the assignment work separate from the stable `main` branch. It allows me to develop, test, and review the Git hook and `/pr-ready` skill without affecting the main version of the repository. It also makes the changes easier to track, compare, and submit through a Pull Request. If a problem occurs, I can correct or remove the feature branch without disrupting the working code on `main`.
+.
 
 ---
 
@@ -49,7 +50,7 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
-Add your screenshot here.
+![Task 1](<screenshots/week 04-assignment 06-screenshot 2.png>).
 
 ---
 
@@ -57,7 +58,7 @@ Add your screenshot here.
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+he assignment uses an obviously fake key because real credentials should never be exposed in source code, Git history, screenshots, or public repositories. A fake key allows the pre-commit hook to be tested safely without risking unauthorized access to an actual AWS account or exposing sensitive information. It demonstrates how secret detection works while following security best practices.
 
 ---
 
