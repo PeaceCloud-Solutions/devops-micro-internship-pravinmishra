@@ -276,7 +276,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-[Linkedin URL](https://www.linkedin.com/posts/peace-offor-aa736a147_devops-git-github-activity-7486446941875204096-NcFj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ)
+[Linkedin URL](https://www.linkedin.com/posts/peace-offor-aa736a147_devops-git-github-ugcPost-7486446940755275776-mvzG/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ)
 
 ---
 
