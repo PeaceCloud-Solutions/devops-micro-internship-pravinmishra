@@ -67,7 +67,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Your stack**
 
-Week 00 → Internet & Networking Basics 
+ Week 00 → Internet & Networking Basics 
  [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
 
  Week 01 → Success Mindset 
@@ -130,11 +130,11 @@ Week 00 → Internet & Networking Basics
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_join-the-dmi-devops-micro-internship-share-7477729743216361472-96WQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/week-0-reflection-understanding-the-internet-changed-the-way-i-see-technology-985a4ee5b2f6|
-| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_devops-softwareengineering-mindset-ugcPost-7478047889144029185-Cei8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/week-1-reflection-the-devops-success-mindset-that-changed-how-i-learn-61b6dd55ddf1 |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-agenticai-claudecode-ugcPost-7481296692026257410-P1MZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/my-biggest-technical-insight-this-week-ai-works-best-when-it-has-context-254f5347c319 |
-| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-linux-activity-7483814176931430401-cNq5?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/what-writing-eight-small-bash-scripts-taught-me-about-automation-1da0163cd46e |
-| 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-git-ugcPost-7486353381746466816-TWv2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/understanding-the-open-source-contribution-workflow-through-my-first-pull-request-bcfe8c7318d8?sharedUserId=poffor762 |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | [Linkedin post week 00] (https://www.linkedin.com/posts/peace-offor-aa736a147_join-the-dmi-devops-micro-internship-share-7477729743216361472-96WQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 00] (https://medium.com/@poffor762/week-0-reflection-understanding-the-internet-changed-the-way-i-see-technology-985a4ee5b2f6) |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | [Linkedin post week 01] (https://www.linkedin.com/posts/peace-offor-aa736a147_devops-softwareengineering-mindset-ugcPost-7478047889144029185-Cei8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 01] (https://medium.com/@poffor762/week-1-reflection-the-devops-success-mindset-that-changed-how-i-learn-61b6dd55ddf1) |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | [Linkedin post week 02] (https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-agenticai-claudecode-ugcPost-7481296692026257410-P1MZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 02]  (https://medium.com/@poffor762/my-biggest-technical-insight-this-week-ai-works-best-when-it-has-context-254f5347c319) |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | [Linkedin post week 03] (https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-linux-activity-7483814176931430401-cNq5?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 03] (https://medium.com/@poffor762/what-writing-eight-small-bash-scripts-taught-me-about-automation-1da0163cd46e) |
+| 04 | Git & GitHub | ✅ Completed | ✅ Solved | [Linkedin post week 04] (https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-git-ugcPost-7486353381746466816-TWv2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 04] (https://medium.com/@poffor762/understanding-the-open-source-contribution-workflow-through-my-first-pull-request-bcfe8c7318d8?sharedUserId=poffor762) |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
