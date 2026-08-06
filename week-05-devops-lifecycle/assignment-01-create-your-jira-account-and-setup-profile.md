@@ -42,7 +42,7 @@ Confirm your email address if Atlassian requests verification.
 
 If you signed up with Google and no separate email verification was required, state that here instead of a screenshot.
 
-Write your answer here.
+I signed up for my Atlassian account using my Google account. Since I authenticated through Google, no separate email verification was required.
 
 ---
 

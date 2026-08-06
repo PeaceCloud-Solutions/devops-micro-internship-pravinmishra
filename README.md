@@ -79,16 +79,11 @@ This is not a course. It is an internship-style program — real deployments, re
  Week 03 → Linux for DevOps 
  [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/)
 
-<<<<<<< HEAD
  Week 04 → Git & GitHub 
- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
-=======
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
->>>>>>> upstream/main
+ [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) 
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+ Week 05 → DevOps Lifecycle & Agile 
+ [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
@@ -140,7 +135,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | [Linkedin post week 02] (https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-agenticai-claudecode-ugcPost-7481296692026257410-P1MZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 02]  (https://medium.com/@poffor762/my-biggest-technical-insight-this-week-ai-works-best-when-it-has-context-254f5347c319) |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | [Linkedin post week 03] (https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-linux-activity-7483814176931430401-cNq5?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 03] (https://medium.com/@poffor762/what-writing-eight-small-bash-scripts-taught-me-about-automation-1da0163cd46e) |
 | 04 | Git & GitHub | ✅ Completed | ✅ Solved | [Linkedin post week 04] (https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-git-ugcPost-7486353381746466816-TWv2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 04] (https://medium.com/@poffor762/understanding-the-open-source-contribution-workflow-through-my-first-pull-request-bcfe8c7318d8?sharedUserId=poffor762) |
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
@@ -168,12 +163,47 @@ This is not a course. It is an internship-style program — real deployments, re
 If you found this repo useful or want to follow my DevOps journey:
 
 - ⭐ Star this repo
-<<<<<<< HEAD
 - 🔗 Connect with me on [https://www.linkedin.com/in/peace-offor-aa736a147?trk=contact-info](#)
-- 🌐 Learn more about the program: https://dmi.pravinmishra.com
-- 💬 Join the community: https://discord.pravinmishra.com
-=======
-- 🔗 Connect with me on [LinkedIn](#)
 - 🌐 Learn more about the program: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
 - 💬 Join the community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
->>>>>>> upstream/main
+
+---
+
+## Footer Feature
+
+The portfolio website footer displays the website version, deployment date, and author name.
+
+The footer format is:
+
+`Portfolio v1.0 — Deployed on [date] — By Peace Offor`
+
+### Date Generation
+
+The deployment date is generated dynamically using JavaScript. When the website loads, JavaScript reads the current system date, formats it as `day month year`, and inserts it into the footer.
+
+```html
+<footer class="site-footer">
+  <p>
+    Portfolio v1.0 — Deployed on
+    <span id="deploy-date"></span>
+    — By Peace Offor
+  </p>
+</footer>
+```
+
+```javascript
+const deploymentDate = new Date();
+
+document.getElementById("deploy-date").textContent =
+  deploymentDate.toLocaleDateString("en-GB", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric"
+  });
+```
+
+Example output:
+
+`Portfolio v1.0 — Deployed on 06 Aug 2026 — By Peace Offor`
+
+---
