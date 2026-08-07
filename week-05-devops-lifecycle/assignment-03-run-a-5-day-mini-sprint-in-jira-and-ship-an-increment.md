@@ -130,7 +130,7 @@ Replace the existing homepage tagline with the required DMI Discord call-to-acti
 
 #### Screenshot 14 — EC2 browser view showing "Join DMI Cohort 3 on Discord and start your DevOps journey"
 
-![Task 5](<screenshots/week 05-assignment 03-screenshot 14.png>).
+![Task 5](<screenshots/week 05-assignment 03-screenshot 14.jpg>).
 
 ---
 
@@ -144,19 +144,19 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 #### Screenshot 15 — Burndown Chart for Sprint 1
 
-Add your screenshot here.
+![Task 6](<screenshots/week 05-assignment 03-screenshot 15.png>).
 
 ---
 
 #### Screenshot 16 — Jira retrospective comment
 
-Add your screenshot here.
+![Task 6.B](<screenshots/week 05-assignment 03-screenshot 16.png>).
 
 ---
 
 #### Screenshot 17 — Final EC2 browser view showing the complete footer requirement
 
-Add your screenshot here.
+![Task 6.C](<screenshots/week 05-assignment 03-screenshot 17.png>).
 
 ---
 
@@ -180,15 +180,14 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-agile-ugcPost-7491298391059152896-C9Bc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the required links and proof image
 
-Add your screenshot here.
+![Linkedin Post](<screenshots/week 05-assignment 03-screenshot 18.png>).
 
----
 
 # Submission Instructions
 
