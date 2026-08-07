@@ -231,13 +231,13 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-![Task 8](<screenshots/week 05-assignment 04-screenshot 10.png>).
+![Task 8.A](<screenshots/week 05-assignment 04-screenshot 10.png>).
 
 ---
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
+![Task 8.B](<screenshots/week 05-assignment 04-screenshot 11.png>).
 
 ---
 
