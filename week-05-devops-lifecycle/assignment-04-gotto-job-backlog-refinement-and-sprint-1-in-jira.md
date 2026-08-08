@@ -217,7 +217,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-![Task 7](<screenshots/week 05-assignment 04-screenshot 9.png>).
+![Task 7](<screenshots/week 05-assignment 04-screenshot 9. png>).
 
 ---
 
@@ -237,13 +237,19 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 11 — Git commit output
 
-![Task 8.B](<screenshots/week 05-assignment 04-screenshot 11.png>).
+![Task 8.B](<screenshots/week 05-assignment 04-screenshot 11.A.png>).
+
+![Task 8.C](<screenshots/week 05-assignment 04-screenshot 11.B.png>).
 
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
+![Task 9](<screenshots/week 05-assignment 04-screenshot 12.A.png>).
+![Task 9](<screenshots/week 05-assignment 04-screenshot 12.B.png>).
+![Task 9](<screenshots/week 05-assignment 04-screenshot 12.C.png>).
+![Task 9](<screenshots/week 05-assignment 04-screenshot 12.D.png>).
+
 
 ---
 
@@ -257,7 +263,7 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-Add your screenshot here.
+![Task 9](<screenshots/week 05-assignment 04-screenshot 13.png>).
 
 ---
 
@@ -273,13 +279,13 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-agile-ugcPost-7491650701010481154-BMWl/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+![Task 10](<screenshots/week 05-assignment 04-screenshot 14.png>).
 
 ---
 
