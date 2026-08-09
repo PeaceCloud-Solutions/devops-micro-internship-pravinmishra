@@ -20,13 +20,13 @@ Generate an API token from your Atlassian account that the MCP server will use t
 
 #### Screenshot 1 — Jira API token creation confirmation page showing the token name, with the token value not visible
 
-Add your screenshot here.
+![Task 1](<screenshots/week 05-assignment 05-screenshot 1.png>).
 
 ### Notes You Must Write (Very Important):
 
 Why does the MCP server need your site URL and account email in addition to the token?
 
-Add your answer here
+The Jira MCP server needs the site URL to know which Jira Cloud instance it should connect to, while the account email identifies the Atlassian user making the request. The API token acts as the authentication credential instead of the account password. Together, the site URL, email, and API token allow the MCP server to authenticate securely and access the Jira data that the account is permitted to view.
 
 ---
 
@@ -40,7 +40,7 @@ Create or update `.mcp.json` at your project root with a Jira MCP server block, 
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the Jira server configuration
 
-Add your screenshot here.
+![Task 2](<screenshots/week 05-assignment 05-screenshot 2.png>).
 
 ### Notes You Must Write (Very Important):
 
@@ -60,13 +60,13 @@ Add your Jira site URL, account email, and API token to `.claude/settings.local.
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section, with the actual token value blurred or covered
 
-Add your screenshot here.
+![Task 3](<screenshots/week 05-assignment 05-screenshot 3.png>).
 
 ### Notes You Must Write (Very Important):
 
 Why must JIRA_API_TOKEN live in settings.local.json and never in .mcp.json?
 
-Add your answer here
+JIRA_API_TOKEN is a sensitive credential that can authenticate API requests to my Jira account. It belongs in settings.local.json because that file is local to my development environment and is excluded from Git. Keeping the token out of .mcp.json prevents it from being accidentally committed and exposed through GitHub. The MCP configuration should describe how the Jira server runs, while sensitive authentication values remain in a private local configuration file.
 
 ---
 
@@ -80,7 +80,7 @@ Restart Claude Code and confirm the Jira MCP server shows as connected.
 
 #### Screenshot 4 — `/mcp` output showing `jira: connected`
 
-Add your screenshot here.
+![Task 4](<screenshots/week 05-assignment 05-screenshot 4.png>).
 
 ---
 
@@ -94,13 +94,14 @@ Ask Claude to list the issues in your current active sprint through the Jira MCP
 
 #### Screenshot 5 — Claude's response showing the live sprint issue list retrieved via Jira MCP
 
-Add your screenshot here.
+![Task 5](<screenshots/week 05-assignment 05-screenshot 5.png>).
 
 ### Notes You Must Write (Very Important):
 
 How did you confirm this was real board data and not something Claude guessed?
 
-Add your answer here
+I confirmed that the results were real board data by comparing Claude's Jira MCP response with the active sprint displayed directly in Jira. I checked the sprint name, issue keys, story summaries, statuses, and estimates against the live board. The values matched the current Jira state. Claude retrieved the information through the connected Jira MCP tools rather than relying on previously supplied issue information or guessing the board contents.
+
 
 ---
 
@@ -114,21 +115,22 @@ Create a `/sprint-health` skill restricted to read-only Jira tools plus `Read`, 
 
 #### Screenshot 6 — `SKILL.md` frontmatter showing `allowed-tools` limited to read-only Jira tools plus `Read`, with `disable-model-invocation: true`
 
-Add your screenshot here.
+![Task 6.A](<screenshots/week 05-assignment 05-screenshot 6.png>).
 
 #### Screenshot 7 — `/sprint-health` output showing the full triage report against your real sprint
 
-Add your screenshot here.
+![Task 6.B](<screenshots/week 05-assignment 05-screenshot 7.png>).
 
 ### Notes You Must Write (Very Important):
 
 1. Which Jira MCP tools does this skill's allowed-tools list include, and which mutating tools (create issue, update issue, transition issue, add comment) does it deliberately exclude?
 
-Add your answer here
+The `/sprint-health` skill allows only `Read` and the Jira MCP tools required to retrieve sprint, board, and issue information. It deliberately excludes all Jira tools capable of changing board state, including create issue, update issue, transition issue, and add comment operations. It also excludes the `Write` tool. This ensures that `/sprint-health` can gather and analyze Jira information but cannot modify either the Jira board or local project files.
+
 
 2. Why does a Scrum Master need this restriction more than almost any other role in this course?
 
-Add your answer here
+A Scrum Master needs this restriction because sprint-health analysis should provide visibility without silently changing the team's source of truth. The Scrum Master's role is to facilitate the process, identify risks, expose blockers, and help the team make informed decisions. An AI assistant that can automatically transition tickets, change estimates, create issues, or add comments during analysis could alter sprint data without the team's agreement. Restricting the skill to read-only tools preserves transparency and keeps board-changing decisions under human control.
 
 ---
 
@@ -142,13 +144,21 @@ Manually update one ticket on your board in the browser (for example, move a sto
 
 #### Screenshot 8 — Second `/sprint-health` run showing the report now reflects your manual board change
 
-Add your screenshot here.
+![Task 7](<screenshots/week 05-assignment 05-screenshot 8.png>).
 
 ### Notes You Must Write (Very Important):
 
 Map this assignment to Gather → Analyze → Human Act → Verify from Week 3 Assignment 6. Which step did you perform manually in the browser, and why must that step stay human?
 
-Add your answer here
+It is important to know that this assignment follows the Gather - Analyze - Human Act - Verify pattern.
+
+Gather: /sprint-health used the read-only Jira MCP tools to retrieve the current sprint and issue data.
+
+Analyze: Claude analyzed the retrieved information to report sprint progress, at-risk stories, and issues with missing estimates.
+
+Human Act: I manually changed a ticket on the live Jira board in the browser. This step remained human because changing issue status or estimates modifies the team's shared source of truth and should require deliberate human judgement and accountability.
+
+Verify: I ran /sprint-health again. The new report retrieved the updated Jira state and reflected my manual change, demonstrating that the skill reads live board data but does not mutate the board itself.
 
 ---
 
