@@ -112,13 +112,13 @@ Create a private MySQL RDS instance in `epicbook-vpc` using a DB Subnet Group ov
 
 #### Screenshot 11 — RDS instance summary showing Publicly accessible: No
 
-![Task 5](<screenshots/week 06-assignment 04-screenshot 11.png>).
+![Task 5.A](<screenshots/week 06-assignment 04-screenshot 11.png>).
 
 ---
 
 #### Screenshot 12 — Connectivity & security section showing the VPC and attached security group
 
-Add your screenshot here.
+![Task 5.B](<screenshots/week 06-assignment 04-screenshot 12.png>).
 
 ---
 

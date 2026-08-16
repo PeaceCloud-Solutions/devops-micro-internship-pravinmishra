@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+![Task 1](<screenshots/week 06-assignment 06-screenshot 1.png>).
 
 ---
 
@@ -34,13 +34,18 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+
+Europe (Stockholm)-eu-north-1.
 
 ---
 
 **Services:**
 
-Write your answer here.
+Networking: Amazon VPC, public and private subnets, Internet Gateway, NAT Gateway, Elastic IP, and Route Tables.
+Compute: Amazon EC2.
+Load Balancing: Application Load Balancer (public and internal) and Target Groups.
+Security: EC2/VPC Security Groups.
+Database: Amazon RDS for MySQL, Multi-AZ deployment, and RDS Read Replica.
 
 ---
 
@@ -56,7 +61,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+`http://book-review-public-alb-16602954.eu-north-1.elb.amazonaws.com`
 
 ---
 
@@ -70,37 +75,41 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+![Task 4.A](<screenshots/week 06-assignment 06-screenshot 2.png>).
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![Task 4.B](<screenshots/week 06-assignment 06-screenshot 3.png>).
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
+![Task 4.C](<screenshots/week 06-assignment 06-screenshot 4.png>).
 
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![Task 4.D](<screenshots/week 06-assignment 06-screenshot 5.A.png>).
+
+!![Task 4.D](<Screenshots/week 06-assignment 06-screenshot 5.B.png>).
+
+![Task 4.D](<screenshots/week 06-assignment 06-screenshot 5.C.png>).
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
+![Task 4.E](<screenshots/week 06-assignment 06-screenshot 6.png>).
 
 ---
 
 #### App UI proof
 
-Add your screenshot here.
+![Task 4.F](<screenshots/week 06-assignment 06-screenshot 7.png>).
 
 ---
 
@@ -114,19 +123,19 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+The Book Review application was deployed using a three-tier AWS architecture in the Europe (Stockholm) eu-north-1 Region. The Web Tier uses EC2 instances running Next.js/Nginx across two public subnets, while a public Application Load Balancer provides the application's external entry point. The App Tier consists of private EC2 instances running the Node.js/Express backend behind an internal Application Load Balancer. The Database Tier uses private Amazon RDS for MySQL with Multi-AZ availability and a read replica. Security groups restrict communication between each tier to the required ports.
 
 ---
 
 **Issues + fixes:**
 
-Write your answer here.
+During deployment, I encountered SSH connectivity problems when accessing private App EC2 instances through the Web Tier, backend database authentication errors, and configuration issues with environment variables. I tested connectivity separately at each layer rather than troubleshooting the entire architecture at once. Direct MySQL connections were used to verify App-to-RDS connectivity and database credentials, while local curl, ss, and Node.js tests were used to verify that the backend was listening correctly on port 3001. Security-group rules and jump-host connectivity were also checked when troubleshooting private-instance access.
 
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+AWS Management Console, Ubuntu/Linux command-line tools, SSH, Git, GitHub, Nginx, Node.js/npm, MySQL client, PM2, curl, nc, ss, AWS documentation, and application repository documentation were used to deploy, test, and troubleshoot the architecture..
 
 ---
 
@@ -142,13 +151,13 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/peace-offor-aa736a147_aws-devops-cloudcomputing-ugcPost-7494727499528998912-r7MW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![Task 5](<screenshots/week 06-assignment 06-screenshot 8.png>).
 
 ---
 
@@ -161,14 +170,14 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Architecture diagram completed
-- [ ] Task 2: AWS Region and services documented
-- [ ] Task 3: Public ALB DNS confirmed working
-- [ ] Task 4: All six evidence screenshots captured (Web Tier, App Tier, both ALBs, RDS + replica, app UI)
-- [ ] Task 5: Deployment summary completed (what worked, issues/fixes, tools/sources)
-- [ ] LinkedIn post published and URL submitted
-- [ ] App Tier and Database Tier confirmed not publicly accessible
-- [ ] No sensitive data exposed
+- [-] Task 1: Architecture diagram completed
+- [-] Task 2: AWS Region and services documented
+- [-] Task 3: Public ALB DNS confirmed working
+- [-] Task 4: All six evidence screenshots captured (Web Tier, App Tier, both ALBs, RDS + replica, app UI)
+- [-] Task 5: Deployment summary completed (what worked, issues/fixes, tools/sources)
+- [-] LinkedIn post published and URL submitted
+- [-] App Tier and Database Tier confirmed not publicly accessible
+- [-] No sensitive data exposed
 
 ---
 

@@ -85,7 +85,6 @@ Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private 
 #### Screenshot 9 — RDS summary showing Multi-AZ = Yes and Publicly accessible = No
 
 ![Task 3.A](<screenshots/week 06-assignment 05-screenshot 9.A.png>).
-
 ![Task 3.A](<screenshots/week 06-assignment 05-screenshot 9.B.png>).
 
 ---
@@ -127,13 +126,13 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
-![Task 5](<screenshots/week 06-assignment 05-screenshot 13.png>).
+![Task 5.A](<screenshots/week 06-assignment 05-screenshot 13.png>).
 
 ---
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
-![Task 5](<screenshots/week 06-assignment 05-screenshot 14.png>).
+![Task 5.B](<screenshots/week 06-assignment 05-screenshot 14.png>).
 
 ---
 
@@ -147,7 +146,7 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
-Add your screenshot here.
+![Task 6](<screenshots/week 06-assignment 05-screenshot 15.png>).
 
 ---
 
@@ -167,13 +166,13 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
-![Task 7](<screenshots/week 06-assignment 05-screenshot 17.png>).
+![Task 7.A](<screenshots/week 06-assignment 05-screenshot 17.png>).
 
 ---
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
-![Task 7](<screenshots/week 06-assignment 05-screenshot 18.png>).
+![Task 7.B](<screenshots/week 06-assignment 05-screenshot 18.png>).
 
 ---
 
