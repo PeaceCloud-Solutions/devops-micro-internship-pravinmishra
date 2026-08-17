@@ -160,7 +160,7 @@ Run the script against your live AWS account and capture the current state befor
 
 #### Screenshot 9 — Output showing the captured exit code and final summary
 
-![Task 5.B](<screnshots/week 06-assignment 07-screenshot 9-1.png>).
+![Task 5.B](<screenshots/week 06-assignment 07-screenshot 9.png>).
 ---
 
 ### Notes You Must Write (Very Important)
