@@ -72,7 +72,7 @@ Launch an Ubuntu 20.04 instance in the public subnet with `epicbook-ec2-sg` atta
 
 #### Screenshot 7 — Terminal showing a successful SSH login with the `ubuntu@...` prompt
 
-![Task 3.B](<week 06-assignment 04-screenshot 7.png>).
+![Task 3.B](<screenshots/week 06-assignment 04-screenshot 7.png>).
 
 ---
 

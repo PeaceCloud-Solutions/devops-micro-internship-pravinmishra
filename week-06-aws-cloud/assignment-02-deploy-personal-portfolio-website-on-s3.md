@@ -90,7 +90,7 @@ Load the site through the S3 website endpoint and confirm the homepage, images, 
 
 #### Screenshot 6 — Browser showing the live website with the S3 website endpoint visible in the address bar
 
-![Task 6](<screenshots/week 06-assignment 01-screenshot 1.pngweek 06-assignment 02-screenshot 7.png>).
+![Task 6](<screenshots/week 06-assignment 02-screenshot 6.png>).
 
 ---
 
@@ -104,8 +104,8 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 #### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
 
-![Task 7](<screenshots/week 06-assignment 02-screenshot 8.A.png>).
-![Task 7](<screenshots/week 06-assignment 02-screenshot 8.B.png>).
+![Task 7](<screenshots/week 06-assignment 02-screenshot 7.A.png>).
+![Task 7](<screenshots/week 06-assignment 02-screenshot 7.B.png>).
 
 ---
 
