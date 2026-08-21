@@ -20,13 +20,13 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 #### Screenshot 1 — Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow
 
-Add your screenshot here.
+![Task 1.A](<screenshots/week 07-assignment 06-screenshot 1.png>).
 
 ---
 
 #### Screenshot 2 — Written architecture assumptions and selected Azure services
 
-Add your screenshot here.
+![Task 1.B](<screenshots/week 07-assignment 06-screenshot 2.png>).
 
 ---
 
@@ -40,19 +40,19 @@ Create a dedicated Resource Group and VNet with separate subnets for the web, ap
 
 #### Screenshot 3 — Resource Group overview showing the assignment resources
 
-Add your screenshot here.
+![Task 2.A](<screenshots/week 07-assignment 06-screenshot 3.png>).
 
 ---
 
 #### Screenshot 4 — VNet overview showing the address space and all required subnets
 
-Add your screenshot here.
+![Task 2.B](<screenshots/week 07-assignment 06-screenshot 4.png>).
 
 ---
 
 #### Screenshot 5 — Route-table or Private DNS evidence where applicable
 
-Add your screenshot here.
+![Task 2.C](<screenshots/week 07-assignment 06-screenshot 5.png>).
 
 ---
 
@@ -66,13 +66,15 @@ Apply least-privilege NSG rules so traffic flows Internet → public entry point
 
 #### Screenshot 6 — NSG rules proving least-privilege access between the tiers
 
-Add your screenshot here.
+![Task 3.A](<screenshots/week 07-assignment 06-screenshot 6.A.png>).
+![Task 3.A](<screenshots/week 07-assignment 06-screenshot 6.B.png>).
+![Task 3.A](<screenshots/week 07-assignment 06-screenshot 6.c.png>).
 
 ---
 
 #### Screenshot 7 — Key Vault or approved secret-management configuration (without displaying secret values)
 
-Add your screenshot here.
+![Task 3.B](<screenshots/week 07-assignment 06-screenshot 7.png>).
 
 ---
 
@@ -231,15 +233,15 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Task 1: Architecture diagram and assumptions documented (Screenshots 1–2)
-- [ ] Task 2: Network foundation created with isolated tiers (Screenshots 3–5)
-- [ ] Task 3: Least-privilege security and secret management configured (Screenshots 6–7)
-- [ ] Task 4: Presentation tier deployed (Screenshots 8–9)
-- [ ] Task 5: Application tier deployed privately (Screenshots 10–12)
-- [ ] Task 6: Managed database tier deployed privately (Screenshots 13–15)
-- [ ] Task 7: Public entry, internal routing, and monitoring configured (Screenshots 16–18)
-- [ ] Task 8: End-to-end validation and availability test completed (Screenshots 19–22, Public Endpoint, Notes)
-- [ ] No sensitive data exposed
+- [-] Task 1: Architecture diagram and assumptions documented (Screenshots 1–2)
+- [-] Task 2: Network foundation created with isolated tiers (Screenshots 3–5)
+- [-] Task 3: Least-privilege security and secret management configured (Screenshots 6–7)
+- [-] Task 4: Presentation tier deployed (Screenshots 8–9)
+- [-] Task 5: Application tier deployed privately (Screenshots 10–12)
+- [-] Task 6: Managed database tier deployed privately (Screenshots 13–15)
+- [-] Task 7: Public entry, internal routing, and monitoring configured (Screenshots 16–18)
+- [-] Task 8: End-to-end validation and availability test completed (Screenshots 19–22, Public Endpoint, Notes)
+- [-] No sensitive data exposed
 
 ---
 
