@@ -95,7 +95,8 @@ Deploy the Book Review App presentation layer on the approved web-tier compute s
 
 #### Screenshot 9 — Terminal or service output proving the presentation layer is running
 
-![Task 4.B](<screenshots/week 07-assignment 06-screenshot 9.png>).
+![Task 4.B](<screenshots/week 07-assignment 06-screenshot 9.A.png>).
+![Task 4.B](<screenshots/week 07-assignment 06-screenshot 9.B.png>).
 
 ---
 
