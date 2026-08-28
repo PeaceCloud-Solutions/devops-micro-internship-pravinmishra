@@ -1,0 +1,25 @@
+========================================
+Azure Security Posture Audit
+Auditor: Peace Offor Nwadinachi
+Generated: Thu, Aug 27, 2026  6:23:45 PM
+========================================
+
+CHECK 1: NSG SSH/RDP exposure
+[PASS] No Internet-wide SSH/RDP rule detected in web-nsg.
+
+CHECK 2: Storage public blob access
+[PASS] Storage Accounts do not report public blob access enabled.
+
+CHECK 3: VM disk encryption
+[WARN] VMs do not report encryption at host enabled. Review disk encryption configuration.
+
+CHECK 4: MySQL public network access
+[PASS] Azure Database for MySQL public network access is disabled.
+
+========================================
+SUMMARY
+PASS: 3
+WARN: 1
+FAIL: 0
+Report: ./reports/azure-audit-20260827-182345.txt
+========================================

@@ -1,0 +1,41 @@
+============================================================
+AWS SECURITY AND COST AUDIT
+Name: Peace Offor Nwadinachi
+Region: eu-north-1
+Started: Sun, Aug 16, 2026  4:48:36 PM
+============================================================
+
+CHECK 1: S3 public-access settings
+[WARN] Bucket pravin-portfolio-peace-eu-north-1 does not have all four bucket-level Public Access Block settings enabled.
+
+CHECK 2: Security groups exposing SSH (22) to 0.0.0.0/0
+[WARN] Security group(s) expose SSH port 22 to the whole IPv4 internet:
+sg-0898a0a64893fcbf3	launch-wizard-1
+
+CHECK 3: Security groups exposing MySQL (3306) to 0.0.0.0/0
+[PASS] No security group exposes MySQL port 3306 to 0.0.0.0/0.
+
+CHECK 4: RDS public accessibility
+[PASS] No RDS DB instance is publicly accessible.
+
+CHECK 5: EBS volume encryption
+[WARN] Unencrypted EBS volume(s) found:
+vol-0a94fcfe49684809d	in-use	8
+vol-0f1c4e72bbb69df1a	in-use	8
+vol-0cb671a0a44422ad0	in-use	8
+vol-03843c630dc725e11	in-use	8
+vol-09f33d5df240a7370	in-use	8
+vol-057453a0d25a8d66a	in-use	8
+vol-08f563ab9236143f3	in-use	8
+vol-05a451403c0a7e33d	in-use	8
+vol-0065241f1fb9a4d49	in-use	8
+vol-05b8d4277336646ad	in-use	8
+
+============================================================
+FINAL SUMMARY
+PASS: 2
+WARN: 3
+FAIL: 0
+Report: reports/aws-audit-20260816-164836.txt
+============================================================
+OVERALL STATUS: WARN

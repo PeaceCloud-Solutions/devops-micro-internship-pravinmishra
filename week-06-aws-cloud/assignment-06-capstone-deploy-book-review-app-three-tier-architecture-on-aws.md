@@ -95,7 +95,7 @@ Capture visual proof of every tier and load balancer.
 
 ![Task 4.D](<screenshots/week 06-assignment 06-screenshot 5.A.png>).
 
-!![Task 4.D](<Screenshots/week 06-assignment 06-screenshot 5.B.png>).
+!![Task 4.D](<screenshots/week 06-assignment 06-screenshot 5.B.png>).
 
 ![Task 4.D](<screenshots/week 06-assignment 06-screenshot 5.C.png>).
 

@@ -46,7 +46,11 @@ Create or update `.mcp.json` at your project root with a Jira MCP server block, 
 
 Compare this jira block to the github block from Week 2 Assignment 5. The GitHub server ran via npx (a Node.js package); this one runs via uvx (a Python package) — what stays exactly the same shape despite that difference, and why doesn't Claude Code care which language a given MCP server is written in?
 
-Add your answer here
+The Jira MCP block follows the same overall structure as the GitHub MCP block from Week 2 Assignment 5. In both cases, Claude Code is given an MCP server definition that includes the command used to start the server and the arguments needed to run it. The main difference is only the runtime: the GitHub MCP server was launched with npx because it was distributed as a Node.js package, while the Jira MCP server is launched with uvx because it is distributed as a Python package.
+
+What stays the same is the MCP interface and configuration pattern. Claude Code still connects to an MCP server, discovers the tools the server exposes, and then calls those tools through the MCP protocol. Claude Code does not need to know whether the server was written in JavaScript, Python, or another language because MCP provides a standard way for the client and server to communicate.
+
+This means npx and uvx are simply different ways of starting the server. Once the MCP server is running and speaking the MCP protocol correctly, Claude Code interacts with it in the same way. This shows why MCP is useful: different tools and services can be implemented in different programming languages while still presenting a consistent interface to the AI client.
 
 ---
 
