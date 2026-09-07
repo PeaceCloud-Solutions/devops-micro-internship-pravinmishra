@@ -133,7 +133,7 @@ Add a screenshot of VS Code showing the EC2 and RDS Security Groups, including M
 
 Add a screenshot of VS Code showing the network module outputs.
 
-![Task 2.d](<screenshots/week 08-assignment 04-screenshot 8.png>).
+![Task 2.D](<screenshots/week 08-assignment 04-screenshot 8.png>).
 
 ---
 
@@ -405,7 +405,7 @@ Verify that EpicBook, EC2, Nginx, and Amazon RDS work together successfully.
 
 ## EC2 Public IP URL
 
-**EC2 Public IP URL:** [ EpicBook EC2 public IP URL](http://16.170.231.195/)
+**EC2 Public IP URL:** [ EpicBook EC2 Public IP URL](http://16.170.231.195/)
 
 ## Evidence
 
@@ -469,7 +469,7 @@ Add a screenshot of the published LinkedIn post showing the post and at least on
 
 ## LinkedIn Post URL
 
-**LinkedIn Post URL:** [Linkedin Post](https://www.linkedin.com/posts/peace-offor-aa736a147_terraform-aws-devops-activity-7501644790724493312-W0sI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ)
+**LinkedIn Post URL:** (https://www.linkedin.com/posts/peace-offor-aa736a147_terraform-aws-devops-activity-7501644790724493312-W0sI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ)
 
 ---
 

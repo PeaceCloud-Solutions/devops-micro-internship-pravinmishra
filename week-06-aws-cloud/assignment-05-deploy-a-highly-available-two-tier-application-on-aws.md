@@ -146,13 +146,13 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
-![Task 6](<screenshots/week 06-assignment 05-screenshot 15.png>).
+![Task 6.A](<screenshots/week 06-assignment 05-screenshot 15.png>).
 
 ---
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
-![Task 6](<screenshots/week 06-assignment 05-screenshot 16.png>).
+![Task 6.B](<screenshots/week 06-assignment 05-screenshot 16.png>).
 
 ---
 
@@ -220,7 +220,7 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram, which may be hand-drawn, or an AWS console overview showing the components
 
-![Task 9](<screenshots/week 06-assignment 05-screenshot 23.png>)Add your screenshot here.
+![Task 9](<screenshots/week 06-assignment 05-screenshot 23.png>).
 
 ---
 

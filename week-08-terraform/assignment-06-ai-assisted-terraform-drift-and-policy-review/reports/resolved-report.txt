@@ -1,0 +1,11 @@
+Terraform Drift Check Report
+============================
+Full Name: Peace Offor Nwadinachi
+
+Terraform plan exit code: 0
+
+PASS - Terraform plan exit code: 0
+PASS - No destructive changes detected
+PASS - No unsafe ingress changes detected
+
+Overall Status: HEALTHY

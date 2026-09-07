@@ -81,7 +81,7 @@ The `cloud-init.sh` file must contain the complete automated React application d
 Add a screenshot of VS Code showing the AzureRM provider, resource group, and Network Security Group configuration in `main.tf`.
 
 ![Task 1.A](<screenshots/week 08-assignment 03-screenshot 4.A.png>).
-![Task 1.B](<screenshots/week 08-assignment 03-screenshot 4.B.png>)
+![Task 1.A](<screenshots/week 08-assignment 03-screenshot 4.B.png>)
 
 ---
 
