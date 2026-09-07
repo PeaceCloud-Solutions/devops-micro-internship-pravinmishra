@@ -245,7 +245,7 @@ Add a screenshot showing the Terraform plan output.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-![Task 5.C](<screenshots/week 08-assignment 05-screenshot 19.A.png>).
+![Task 5.C](<screenshots/week 08-assignment 05-screenshot 19.png>).
 
 ---
 
@@ -277,7 +277,8 @@ Add a screenshot showing successful login or authentication.
 
 Add a screenshot showing the book listing or book details.
 
-![Task 6.C](<screenshots/week 08-assignment 05-screenshot 22.png>).
+![Task 6.C](<screenshots/week 08-assignment 05-screenshot 22.A.png>).
+![Task 6.C](<screenshots/week 08-assignment 05-screenshot 22.B.png>)
 
 ---
 
@@ -285,7 +286,9 @@ Add a screenshot showing the book listing or book details.
 
 Add a screenshot showing the review functionality working successfully.
 
-![Task 6.D](<screenshots/week 08-assignment 05-screenshot 23.png>).
+![Task 6.D](<screenshots/week 08-assignment 05-screenshot 23.A.png>).
+
+![Task 6.D](<screenshots/week 08-assignment 05-screenshot 23.B.png>).
 
 ---
 
