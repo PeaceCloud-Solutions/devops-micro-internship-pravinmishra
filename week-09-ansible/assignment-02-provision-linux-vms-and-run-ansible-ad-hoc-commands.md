@@ -226,7 +226,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post
 
-![Task 6.G](<screenshots/week 0-assignment 02-screenshot 18.png>).
+![Linkedin Post](<screenshots/week 09-assignment 02-screenshot 18.png>).
 
 ---
 
