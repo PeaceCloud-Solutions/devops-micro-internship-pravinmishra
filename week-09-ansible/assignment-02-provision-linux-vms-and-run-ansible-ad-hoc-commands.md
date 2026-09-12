@@ -24,19 +24,19 @@ This project will use the Git repository and Ansible controller prepared in Assi
 
 #### Screenshot 1 — Terminal showing the complete `ansible-adhoc-lab` project structure
 
-Add your screenshot here.
+![Task 1.A](<screenshots/week 09-assignment 02-screenshot 1.png>).
 
 ---
 
 #### Screenshot 2 — Terminal showing `git status --short` with the new project files and updated `.gitignore`
 
-Add your screenshot here.
+![Task 1.B](<screenshots/week 09-assignment 02-screenshot 2.png>).
 
----
+---  
 
 ### Notes
 
-Add your task notes here.
+I created the ansible-adhoc-lab project inside my existing Ansible workspace and separated the project into terraform and ansible directories. The Terraform directory contains the infrastructure configuration files, while the Ansible directory contains the custom inventory. I also created the project README.md and updated .gitignore to prevent Terraform state files, virtual environments, SSH private keys, and other sensitive/generated files from being committed to Git.
 
 ---
 
@@ -57,25 +57,25 @@ Do not configure both providers for this assignment.
 
 #### Screenshot 3 — Terraform configuration showing the three or four server roles and the `for_each` or `count` implementation
 
-Add your screenshot here.
+![Task 2.A](<screenshots/week 09-assignment 02-screenshot 3.png>).
 
 ---
 
 #### Screenshot 4 — Terraform configuration showing SSH restricted to the controller IP and HTTP allowed only for web hosts
 
-Add your screenshot here.
+![Task 2.B](<screenshots/week 09-assignment 02-screenshot 4.png>).
 
 ---
 
 #### Screenshot 5 — Terraform output configuration showing how public IP addresses are associated with the server roles
 
-Add your screenshot here.
+![Task 2.C](<screenshots/week 09-assignment 02-screenshot 5.png>).
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I used Amazon Web Services (AWS) and selected the three-VM option for this assignment. I created the web1, app1, and db1 server roles and used Terraform for_each to provision the EC2 instances consistently from the same configuration. I configured an Ubuntu AMI, VPC, public subnet, Internet Gateway, route table, security groups, and an AWS key pair using my existing SSH public key. SSH access on port 22 was restricted to my Ansible controller's current public IP using a /32 CIDR instead of allowing SSH from anywhere. Terraform outputs were also configured to map each server role to its public IP address.
 
 ---
 
@@ -89,25 +89,25 @@ Initialize and validate the Terraform configuration, review the execution plan, 
 
 #### Screenshot 6 — Final `terraform apply` output showing `Apply complete`
 
-Add your screenshot here.
+![Task 3.A](<screenshots/week 09-assignment 02-screenshot 6.png>).
 
 ---
 
 #### Screenshot 7 — `terraform output public_ips` showing the role-to-IP mapping for all three or four VMs
 
-Add your screenshot here.
+![Task 3.B](<screenshots/week 09-assignment 02-screenshot 7.png>).
 
 ---
 
 #### Screenshot 8 — Azure Portal or AWS Management Console showing all three or four VMs in the `Running` state, with their role-based names visible
 
-Add your screenshot here.
+![Task 3.C](<screenshots/week 09-assignment 02-screenshot 8.png>).
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I initialized the Terraform working directory, formatted and validated the configuration, reviewed the execution plan, and then applied the configuration to AWS. Terraform successfully provisioned the required infrastructure and three Ubuntu EC2 instances. The final apply completed successfully with 11 resources added, and I used terraform output public_ips to retrieve the public IP addresses mapped to web1, app1, and db1. I also verified in the AWS Management Console that all three EC2 instances were running.
 
 ---
 
@@ -121,13 +121,14 @@ Verify that each managed VM can be accessed from the Ansible controller using SS
 
 #### Screenshot 9 — Terminal showing successful SSH hostname output from all VMs
 
-Add your screenshot here.
+![Task 4](<screenshots/week 09-assignment 02-screenshot 9.A.png>).
+![Task 4](<screenshots/week 09-assignment 02-screenshot 9.B.png>)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I verified SSH key-based authentication from my WSL Ansible controller to all three Ubuntu EC2 instances. I retrieved the public IP addresses from the Terraform outputs and connected using the ubuntu user and my ED25519 SSH key. I executed the hostname command remotely against web1, app1, and db1, and each server returned its hostname successfully. During testing, I also refreshed the controller's public IP /32 security-group rule when required so that SSH remained restricted to my current public IP.
 
 ---
 
@@ -143,19 +144,19 @@ The inventory allows Ansible to run commands against all servers, or only specif
 
 #### Screenshot 10 — `inventory.ini` showing the `web`, `app`, and `db` groups
 
-Add your screenshot here.
+![Task 5.A](<screenshots/week 09-assignment 02-screenshot 10.png>).
 
 ---
 
 #### Screenshot 11 — Output of `ansible-inventory -i inventory.ini --graph`
 
-Add your screenshot here.
+![Task 5.B](<screenshots/week 09-assignment 02-screenshot 11.png>).
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I created a custom inventory.ini file and organized the three managed servers into the [web], [app], and [db] groups. Each inventory host uses its EC2 public IP address because my Ansible controller is outside the AWS VPC. I configured the ubuntu SSH user and my existing ED25519 private-key path for authentication. I then used ansible-inventory -i inventory.ini --graph to verify that web1, app1, and db1 were assigned to the correct inventory groups.
 
 ---
 
@@ -171,43 +172,43 @@ This task proves that the inventory is working and that Ansible can control mult
 
 #### Screenshot 12 — Output of `ansible all -i inventory.ini -m ping`
 
-Add your screenshot here.
+![Task 6.A](<screenshots/week 09-assignment 02-screenshot 12.png>).
 
 ---
 
 #### Screenshot 13 — Output of `ansible all -i inventory.ini -m command -a "uptime"`
 
-Add your screenshot here.
+![Task 6.B](<screenshots/week 09-assignment 02-screenshot 13.png>).
 
 ---
 
 #### Screenshot 14 — Output of `ansible web -i inventory.ini -m apt -a "name=nginx state=present update_cache=yes" --become`
 
-Add your screenshot here.
+![Task 6.C](<screenshots/week 09-assignment 02-screenshot 14.png>).
 
 ---
 
 #### Screenshot 15 — Output of `ansible web -i inventory.ini -m service -a "name=nginx state=started enabled=yes" --become`
 
-Add your screenshot here.
+![Task 6.D](<screenshots/week 09-assignment 02-screenshot 15.png>).
 
 ---
 
 #### Screenshot 16 — Output of `ansible all -i inventory.ini -m apt -a "name=htop state=present update_cache=yes" --become`
 
-Add your screenshot here.
+![Task 6.E](<screenshots/week 09-assignment 02-screenshot 16.png>).
 
 ---
 
 #### Screenshot 17 — Output of `ansible web -i inventory.ini -m command -a "systemctl is-active nginx"`
 
-Add your screenshot here.
+![Task 6.F](<screenshots/week 09-assignment 02-screenshot 17.png>).
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I used Ansible ad-hoc commands to manage the three EC2 instances without creating a playbook. I first used the Ansible ping module to verify SSH connectivity and Python execution on all managed hosts, followed by the command module to check their uptime. I targeted only the web group to install, start, and enable Nginx using privilege escalation with --become. I then installed htop across all managed servers and verified that the Nginx service on the web server returned active. These tests demonstrated how Ansible inventory groups can be used to perform either role-specific or environment-wide administrative operations from a single controller.
 
 ---
 
@@ -219,13 +220,13 @@ Add your task notes here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/peace-offor-aa736a147_devops-ansible-terraform-activity-7504138582903877633-PAX3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Task 6.G](<screenshots/week 0-assignment 02-screenshot 18.png>).
 
 ---
 
