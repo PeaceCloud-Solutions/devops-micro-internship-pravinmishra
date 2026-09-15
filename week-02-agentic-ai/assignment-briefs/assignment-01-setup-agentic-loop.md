@@ -146,7 +146,7 @@ In professional agentic DevOps teams, engineers do not use Claude Code blind. Be
 Complete all tasks in sequence.
 
 Your submission must include:
-- All 5 required screenshots
+- All 6 required screenshots
 - Your GitHub forked repository URL
 
 ---
@@ -179,7 +179,7 @@ Before submission, verify:
 - [ ] Claude Code CLI installed and `claude --version` works
 - [ ] Claude Code authenticated — opens without asking for login again
 - [ ] Starter repo forked and cloned
-- [ ] All 5 screenshots captured and added to your GitHub Repository file
+- [ ] All 6 screenshots captured and added to your GitHub Repository file
 - [ ] GitHub repo URL included
 >>>>>>> upstream/main
 
