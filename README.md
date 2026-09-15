@@ -207,3 +207,13 @@ Example output:
 `Portfolio v1.0 — Deployed on 06 Aug 2026 — By Peace Offor`
 
 ---
+
+
+mini-finance-azuredevops-key.pem
+102.88.109.9
+102.89.83.204  recent ip
+
+instance_id = "i-0deee6872f558506b"
+public_dns = "ec2-16-16-194-81.eu-north-1.compute.amazonaws.com"
+public_ip = "16.16.194.81"
+website_url = "http://16.16.194.81"

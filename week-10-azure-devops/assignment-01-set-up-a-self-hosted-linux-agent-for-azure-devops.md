@@ -106,7 +106,21 @@ Add your screenshot here.
 
 Note the cloud platform used, your Azure DevOps organization/project name, and the agent pool name. Describe any issue you faced and how you resolved it.
 
-Write your answer here.
+### Notes
+
+Cloud Platform: Microsoft Azure
+Azure DevOps Organization: DMI-Cohort3-PeaceOffor
+Azure DevOps Project: Self-Hosted-Agent
+Agent Pool: SelfHostedPool
+
+For this assignment, I used Microsoft Azure to provision an Ubuntu VM that served as the self-hosted Linux agent for Azure DevOps.
+
+During the setup, I encountered some challenges while configuring and connecting the self-hosted agent to Azure DevOps. I resolved these by verifying the agent configuration, confirming that my "Personal Access Token (PAT)" had the required permissions, and checking that the Azure DevOps agent service was properly installed and running on the Ubuntu VM. I also verified that the agent was registered to the correct agent pool. After completing these checks, the self-hosted agent successfully appeared as **Online** in Azure DevOps.
+
+To validate the complete setup, I created and ran a test YAML pipeline using the "SelfHostedPool". The pipeline successfully executed the required Linux commands, including `uname -a`, `whoami`, and `df -h`, directly on the Ubuntu VM. The output confirmed the Linux system information, showed that the pipeline was running under the `azureuser` account, and displayed the VM's disk usage.
+
+The successful pipeline run confirmed that my Microsoft Azure Ubuntu VM was correctly registered as a self-hosted Azure DevOps agent and was ready to execute CI/CD pipeline workloads.
+
 
 ---
 
@@ -119,14 +133,14 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Task 1: PAT created with required scopes and stored securely
-- [ ] Task 2: Self-hosted agent pool created (Screenshot 1)
-- [ ] Task 3: Ubuntu VM provisioned and SSH verified (Screenshots 2–3)
-- [ ] Task 4: Agent installed, registered, and running as a service (Screenshots 4–5)
-- [ ] Task 5: Agent verified Online (Screenshot 6)
-- [ ] Task 6: Test pipeline run successfully (Screenshot 7)
-- [ ] Platform/org/pool details and issue notes written (Notes)
-- [ ] No secrets exposed
+- [-] Task 1: PAT created with required scopes and stored securely
+- [-] Task 2: Self-hosted agent pool created (Screenshot 1)
+- [-] Task 3: Ubuntu VM provisioned and SSH verified (Screenshots 2–3)
+- [-] Task 4: Agent installed, registered, and running as a service (Screenshots 4–5)
+- [-] Task 5: Agent verified Online (Screenshot 6)
+- [-] Task 6: Test pipeline run successfully (Screenshot 7)
+- [-] Platform/org/pool details and issue notes written (Notes)
+- [-] No secrets exposed
 
 ---
 
