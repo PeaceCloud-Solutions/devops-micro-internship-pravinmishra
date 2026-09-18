@@ -183,7 +183,7 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-![Task 5](<screenshots/week 10-assignment 03-screenshot 4.png>).
+![Task 5](<screenshots/week 10-assignment 03-screenshot 6.png>).
 
 ## LinkedIn Post URL
 

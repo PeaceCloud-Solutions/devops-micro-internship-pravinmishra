@@ -10,7 +10,7 @@ Part of the DevOps Micro Internship (DMI) — Agentic AI Track
 
 **GitHub Repository or Fork URL:** [(https://github.com/PeaceCloud-Solutions/devops-micro-internship-pravinmishra)]
 
-**Public LinkedIn Post URL:** [Paste your LinkedIn post URL]
+**Public LinkedIn Post URL:** [[LinkedIn post URL](https://lnkd.in/p/emc3Cysm)]
 
 ---
 
@@ -330,7 +330,7 @@ Recovery `/pipeline-triage` output showing Overall Status `HEALTHY`, exit code `
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+[[LinkedIn Post URL](https://lnkd.in/p/emc3Cysm).]
 
 ## Evidence
 

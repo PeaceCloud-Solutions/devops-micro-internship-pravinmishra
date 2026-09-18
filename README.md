@@ -95,10 +95,10 @@ This is not a course. It is an internship-style program — real deployments, re
  [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/)
 
  Week 09 → Ansible 
-[![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/)
+ [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/)
 
-<!-- Week 10 → Azure DevOps CI/CD -->
-<!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->
+ Week 10 → Azure DevOps CI/CD 
+ [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) 
 
 <!-- Week 11 → Docker -->
 <!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
@@ -138,9 +138,9 @@ This is not a course. It is an internship-style program — real deployments, re
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | [Linkedin post week 05] (https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-agile-ugcPost-7491298391059152896-C9Bc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 05] (https://medium.com/@poffor762/from-sprint-planning-to-deployment-delivering-a-website-increment-through-a-5-day-agile-sprint-70d1d422f40e?sharedUserId=poffor762) |
 | 06 | AWS Cloud | ✅ Completed  | ✅ Solved | [Linkedin post week 06] (https://www.linkedin.com/posts/peace-offor-aa736a147_aws-devops-cloudcomputing-activity-7494069858188414976-3pu3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 06] (https://medium.com @poffor762/week-06-building-on-aws-from-static-hosting-to-high-availability-8907f781a3f9?sharedUserId=poffor762) |
 | 07 | Azure Cloud | ✅ Completed  | ✅ Solved | [Linkedin post week 07] (https://www.linkedin.com/posts/peace-offor-aa736a147_azure-devops-cloudcomputing-activity-7499018061954318336-L9Ac?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 07] (https://medium.com/@poffor762/technical-journey-building-and-troubleshooting-a-three-tier-book-review-application-on-microsoft-d237f4c364b0?sharedUserId=poffor762) |
-| 08 | Terraform | ✅ Completed | ✅ Completed | [Linkedin post week 08] (https://www.linkedin.com/posts/peace-offor-aa736a147_terraform-aws-devops-activity-7501644790724493312-W0sI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 08] (https://medium.com/@poffor762/from-terraform-basics-to-a-modular-aws-deployment-my-week-08-epicbook-project-d565fa09d971) |
-| 09 | Ansible | 🔄 In Progress | 🔄 In Progress | [Linkedin post week 09] (https://www.linkedin.com/posts/peace-offor-aa736a147_devops-ansible-terraform-activity-7504138582903877633-PAX3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 09] (https://medium.com/@poffor762/from-manual-server-management-to-ansible-ad-hoc-automation-fe10940e7d53) |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+| 08 | Terraform | ✅ Completed | ✅ Solved | [Linkedin post week 08] (https://www.linkedin.com/posts/peace-offor-aa736a147_terraform-aws-devops-activity-7501644790724493312-W0sI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 08] (https://medium.com/@poffor762/from-terraform-basics-to-a-modular-aws-deployment-my-week-08-epicbook-project-d565fa09d971) |
+| 09 | Ansible | ✅ Completed | ✅ Solved | [Linkedin post week 09] (https://www.linkedin.com/posts/peace-offor-aa736a147_devops-ansible-terraform-activity-7504138582903877633-PAX3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 09] (https://medium.com/@poffor762/from-manual-server-management-to-ansible-ad-hoc-automation-fe10940e7d53) |
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Solved | [Linkedin post week 10] (https://www.linkedin.com/posts/peace-offor-aa736a147_devops-azuredevops-devopsintern-activity-7505771461752811520-9vMj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 10] (https://medium.com/@poffor762/automating-static-website-deployment-to-aws-ec2-with-azure-devops-ci-cd-c4d393a8cd35?sharedUserId=poffor762) |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
@@ -207,13 +207,3 @@ Example output:
 `Portfolio v1.0 — Deployed on 06 Aug 2026 — By Peace Offor`
 
 ---
-
-
-mini-finance-azuredevops-key.pem
-102.88.109.9
-102.89.83.204  recent ip
-
-instance_id = "i-0deee6872f558506b"
-public_dns = "ec2-16-16-194-81.eu-north-1.compute.amazonaws.com"
-public_ip = "16.16.194.81"
-website_url = "http://16.16.194.81"

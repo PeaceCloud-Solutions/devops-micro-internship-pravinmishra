@@ -142,7 +142,7 @@ Add a browser screenshot showing:
 
 ## Final Website URL
 
-`http://<target-vm-public-ip>`
+`http://http://16.16.194.81`
 
 Replace the placeholder with your actual website URL:
 

@@ -226,11 +226,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-![LinkedIn Post](<screenshots/week 10-assignment 04-screenshot 6.png>).
+![Linkedn Post](<screenshots/week 10-assignment 04-screenshot 6.png>).
 
 ## LinkedIn Post URL
 
-[[LinkedIn post URL here](https://www.linkedin.com/posts/peace-offor-aa736a147_azuredevops-microsoftazure-devops-activity-7506161232702386177-weWs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ).]
+[[LinkedIn post URL](https://lnkd.in/p/eqY3FjGi).]
 
 Your post must include:
 
