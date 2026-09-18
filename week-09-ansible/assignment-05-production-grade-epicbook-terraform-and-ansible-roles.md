@@ -24,7 +24,7 @@ Terraform will be used to provision the cloud infrastructure. Ansible roles will
 
 #### Screenshot 1 — Terminal showing the completed `epicbook-prod` project structure
 
-![Task 1](<screenshots/week 09-assignment 01-screenshot 1.png>).
+![Task 1](<screenshots/week 09-assignment 05-screenshot 1.png>).
 
 ---
 
@@ -62,25 +62,25 @@ Terraform will create the VM, managed MySQL database, networking, security rules
 
 #### Screenshot 2 — `terraform apply` completed successfully
 
-![Task 2.A](<screenshots/week 09-assignment 01-screenshot 2.png>).
+![Task 2.A](<screenshots/week 09-assignment 05-screenshot 2.png>).
 
 ---
 
 #### Screenshot 3 — Output of `terraform output`
 
-![Task 2.B](<screenshots/week 09-assignment 01-screenshot 3.png>).
+![Task 2.B](<screenshots/week 09-assignment 05-screenshot 3.png>).
 
 ---
 
 #### Screenshot 4 — Azure Portal or AWS Console showing the VM running
 
-![Task 2.C](<screenshots/week 09-assignment 01-screenshot 4.png>).
+![Task 2.C](<screenshots/week 09-assignment 05-screenshot 4.png>).
 
 ---
 
 #### Screenshot 5 — Azure Portal or AWS Console showing the managed MySQL database created
 
-![Task 2.D](<screenshots/week 09-assignment 01-screenshot 5.png>).
+![Task 2.D](<screenshots/week 09-assignment 05-screenshot 5.png>).
 
 ---
 
@@ -116,7 +116,7 @@ Verify that the cloud VM can be accessed from the Ansible controller using SSH k
 
 #### Screenshot 6 — Successful SSH hostname check from the Ansible controller
 
-![Task 3](<screenshots/week 09-assignment 01-screenshot 6.png>).
+![Task 3](<screenshots/week 09-assignment 05-screenshot 6.png>).
 
 ---
 
@@ -154,19 +154,19 @@ The inventory tells Ansible which VM to manage and which SSH user to use.
 
 #### Screenshot 7 — `inventory.ini` showing the VM under the `web` group
 
-![Task 4.A](<screenshots/week 09-assignment 01-screenshot 7.png>).
+![Task 4.A](<screenshots/week 09-assignment 05-screenshot 7.png>).
 
 ---
 
 #### Screenshot 8 — Output of `ansible-inventory -i inventory.ini --graph`
 
-![Task 4.B](<screenshots/week 09-assignment 01-screenshot 8.png>).
+![Task 4.B](<screenshots/week 09-assignment 05-screenshot 8.png>).
 
 ---
 
 #### Screenshot 9 — Output of `ansible web -i inventory.ini -m ping`
 
-![Task 4.C](<screenshots/week 09-assignment 01-screenshot 9.png>).
+![Task 4.C](<screenshots/week 09-assignment 05-screenshot 9.png>).
 
 ---
 
@@ -210,13 +210,13 @@ The `site.yml` file will call the `common`, `nginx`, and `epicbook` roles.
 
 #### Screenshot 10 — `site.yml` showing the roles in the correct order
 
-![Task 5.A](<screenshots/week 09-assignment 01-screenshot 10.png>).
+![Task 5.A](<screenshots/week 09-assignment 05-screenshot 10.png>).
 
 ---
 
 #### Screenshot 11 — Output of `ansible-playbook -i inventory.ini site.yml --syntax-check`
 
-![Task 5.B](<screenshots/week 09-assignment 01-screenshot 11.png>).
+![Task 5.B](<screenshots/week 09-assignment 05-screenshot 11.png>).
 
 ---
 
@@ -254,7 +254,7 @@ This role handles the common server setup before Nginx and the application are c
 
 #### Screenshot 12 — `roles/common/tasks/main.yml` showing the common setup tasks
 
-![Task 6](<screenshots/week 09-assignment 01-screenshot 12.png>).
+![Task 6](<screenshots/week 09-assignment 05-screenshot 12.png>).
 
 ---
 
@@ -292,13 +292,13 @@ Nginx will receive browser traffic on port `80` and forward it to the EpicBook N
 
 #### Screenshot 13 — `roles/nginx/tasks/main.yml` showing Nginx installation and site configuration tasks
 
-![Task 7.A](<screenshots/week 09-assignment 01-screenshot 13.png>).
+![Task 7.A](<screenshots/week 09-assignment 05-screenshot 13.png>).
 
 ---
 
 #### Screenshot 14 — `roles/nginx/templates/epicbook.conf.j2` showing the reverse proxy configuration
 
-![Task 7.B](<screenshots/week 09-assignment 01-screenshot 14.png>).
+![Task 7.B](<screenshots/week 09-assignment 05-screenshot 14.png>).
 
 ---
 
@@ -334,20 +334,20 @@ Create the `epicbook` role to deploy the EpicBook application, connect it to the
 
 #### Screenshot 15 — `roles/epicbook/tasks/main.yml` showing application deployment tasks
 
-![Task 8.A](<screenshots/week 09-assignment 01-screenshot 15.png>).
+![Task 8.A](<screenshots/week 09-assignment 05-screenshot 15.png>).
 
 ---
 
 #### Screenshot 16 — Task or file showing how the database connection is configured, with secrets hidden
 
-![Task 8.B](<screenshots/week 09-assignment 01-screenshot 16.png>).
+![Task 8.B](<screenshots/week 09-assignment 05-screenshot 16.png>).
 
 ---
 
 #### Screenshot 17 — Task or output showing the EpicBook application managed by PM2
 
-![Task 8.C](<screenshots/week 09-assignment 01-screenshot 17.A.png>)
-![Task 8.C](<screenshots/week 09-assignment 01-screenshot 17.B.png>).
+![Task 8.C](<screenshots/week 09-assignment 05-screenshot 17.A.png>)
+![Task 8.C](<screenshots/week 09-assignment 05-screenshot 17.B.png>).
 
 ---
 
@@ -433,31 +433,31 @@ The playbook should run the roles in this order:
 
 #### Screenshot 19 — Ansible playbook output showing the roles running
 
-![Task 10.A](<screenshots/week 09-assignment 01-screenshot 19.png>).
+![Task 10.A](<screenshots/week 09-assignment 05-screenshot 19.png>).
 
 ---
 
 #### Screenshot 20 — Final Ansible recap showing `failed=0`
 
-![Task 10.B](<screenshots/week 09-assignment 01-screenshot 20.png>).
+![Task 10.B](<screenshots/week 09-assignment 05-screenshot 20.png>).
 
 ---
 
 #### Screenshot 21 — Output of `ansible web -i inventory.ini -m command -a "systemctl is-active nginx" --become`
 
-![Task 10.C](<screenshots/week 09-assignment 01-screenshot 21.png>).
+![Task 10.C](<screenshots/week 09-assignment 05-screenshot 21.png>).
 
 ---
 
 #### Screenshot 22 — Output of `ansible web -i inventory.ini -m command -a "pm2 status"`
 
-![Task 10.D](<screenshots/week 09-assignment 01-screenshot 22.png>).
+![Task 10.D](<screenshots/week 09-assignment 05-screenshot 22.png>).
 
 ---
 
 #### Screenshot 23 — Output of `ansible web -i inventory.ini -m command -a "curl -I http://localhost:8080"`
 
-![Task 10.E](<screenshots/week 09-assignment 01-screenshot 23.png>).
+![Task 10.E](<screenshots/week 09-assignment 05-screenshot 23.png>).
 
 ---
 
@@ -508,25 +508,25 @@ Verify that the EpicBook application is running, accessible in the browser, and 
 
 #### Screenshot 24 — Output of `curl -I http://<public_ip>`
 
-![Task 11.A](<screenshots/week 09-assignment 01-screenshot 24.png>).
+![Task 11.A](<screenshots/week 09-assignment 05-screenshot 24.png>).
 
 ---
 
 #### Screenshot 25 — Output of the cart API test command
 
-![Task 11.B](<screenshots/week 09-assignment 01-screenshot 25.png>).
+![Task 11.B](<screenshots/week 09-assignment 05-screenshot 25.png>).
 
 ---
 
 #### Screenshot 26 — Output of the `/cart` HTTP status check
 
-![Task 11.C](<screenshots/week 09-assignment 01-screenshot 26.png>).
+![Task 11.C](<screenshots/week 09-assignment 05-screenshot 26.png>).
 
 ---
 
 #### Screenshot 27 — Browser showing the EpicBook application loaded from `http://<public_ip>`
 
-![Task 11.D](<screenshots/week 09-assignment 01-screenshot 27.png>).
+![Task 11.D](<screenshots/week 09-assignment 05-screenshot 27.png>).
 
 ---
 
@@ -566,13 +566,13 @@ During verification, the EpicBook application initially failed to remain online 
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-terraform-activity-7504587729830342656-n_mR?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Task 11.E](<screenshots/week 09-assignment 05-screenshot 28.png>).
 
 ---
 

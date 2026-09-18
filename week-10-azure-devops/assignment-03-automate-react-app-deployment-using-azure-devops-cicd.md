@@ -37,7 +37,7 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![Task 1](<screenshots/week 10-assignment 03-screenshot 1.png>).
 
 ---
 
@@ -81,7 +81,11 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![Task 4](<screenshots/week 10-assignment 03-screenshot 2.A.png>)
+![Task 4](<screenshots/week 10-assignment 03-screenshot 2.B.png>)
+![Task 4](<screenshots/week 10-assignment 03-screenshot 2.C.png>)
+![Task 4](<screenshots/week 10-assignment 03-screenshot 2.D.png>)
+![Task 4](<screenshots/week 10-assignment 03-screenshot 2.E.png>).
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +108,8 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+![Task 5](<screenshots/week 10-assignment 03-screenshot 3.A.png>)
+![Task 5](<screenshots/week 10-assignment 03-screenshot 3.B.png>).
 
 ---
 
@@ -122,7 +127,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+![Task 6](<screenshots/week 10-assignment 03-screenshot 4.png>).
 
 ---
 
@@ -143,15 +148,15 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![Task 7](<screenshots/week 10-assignment 03-screenshot 5.png>).
 
 ## Final Application URL
 
-`http://<vm-public-ip>`
+`http://51.21.3.169`
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+[[Final Application URL](http://51.21.3.169/).]
 
 ---
 
@@ -159,7 +164,11 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+[I implemented a multi-stage Azure DevOps CI/CD pipeline to automate the build, testing, artifact publishing, and deployment of a React application. The pipeline is automatically triggered by changes committed to the main branch. During the Build stage, the required Node.js environment and dependencies are prepared and the React production build is generated. The Test stage executes the application's tests before deployment can continue.
+
+The production build is transferred between stages using Azure DevOps Pipeline Artifacts. During the Publish stage, the deployment artifact is verified and published for use by the Deploy stage. The Deploy stage downloads the artifact and uses an Azure DevOps SSH Service Connection to securely transfer the compiled React files to /var/www/html on the Ubuntu VM.
+
+Nginx serves the deployed React application from the VM, with SPA routing configured through Ansible. The deployment is verified by confirming that index.html and the compiled assets exist in /var/www/html, Nginx is active, and the application responds successfully over HTTP. This workflow provides an automated CI/CD process from a commit to main through production deployment.]
 
 ---
 
@@ -174,11 +183,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![Task 5](<screenshots/week 10-assignment 03-screenshot 4.png>).
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+[[LinkedIn Post](https://lnkd.in/p/evGzRzXd).]
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 
@@ -199,27 +208,27 @@ Add your screenshot here.
 
 # Completion Checklist
 
-* [ ] All tasks were completed in sequence
-* [ ] The correct React repository was imported into Azure Repos
-* [ ] Your Full Name and date were added to the application
-* [ ] The pipeline YAML was authored and committed to the repository
-* [ ] Commits to `main` trigger the pipeline automatically
-* [ ] The pipeline contains Build, Test, Publish, and Deploy stages
-* [ ] All four stages succeeded in the same pipeline run
-* [ ] The production build moved between stages as a pipeline artifact
-* [ ] The Deploy stage used the SSH Service Connection
-* [ ] No password or secret is stored in the YAML
-* [ ] `index.html` is directly inside `/var/www/html`
-* [ ] Raw React source code was not deployed to the Nginx web root
-* [ ] `node_modules/` was not deployed to the Nginx web root
-* [ ] Nginx is active
-* [ ] The application opens through the VM public IP address
-* [ ] Your Full Name and date are visible in the browser screenshot
-* [ ] Screenshots 1–6 are included and readable
-* [ ] No password, token, private key, account ID, or other secret is visible
-* [ ] The final application URL is included
-* [ ] The LinkedIn post is published
-* [ ] The LinkedIn post URL is included
+* [-] All tasks were completed in sequence
+* [-] The correct React repository was imported into Azure Repos
+* [-] Your Full Name and date were added to the application
+* [-] The pipeline YAML was authored and committed to the repository
+* [-] Commits to `main` trigger the pipeline automatically
+* [-] The pipeline contains Build, Test, Publish, and Deploy stages
+* [-] All four stages succeeded in the same pipeline run
+* [-] The production build moved between stages as a pipeline artifact
+* [-] The Deploy stage used the SSH Service Connection
+* [-] No password or secret is stored in the YAML
+* [-] `index.html` is directly inside `/var/www/html`
+* [-] Raw React source code was not deployed to the Nginx web root
+* [-] `node_modules/` was not deployed to the Nginx web root
+* [-] Nginx is active
+* [-] The application opens through the VM public IP address
+* [-] Your Full Name and date are visible in the browser screenshot
+* [-] Screenshots 1–6 are included and readable
+* [-] No password, token, private key, account ID, or other secret is visible
+* [-] The final application URL is included
+* [-] The LinkedIn post is published
+* [-] The LinkedIn post URL is included
 
 ---
 

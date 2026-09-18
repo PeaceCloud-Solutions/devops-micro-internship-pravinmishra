@@ -36,7 +36,7 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+![Task 1](<screenshots/week 10-assignment 02-screenshot 1.png>).
 
 ---
 
@@ -65,7 +65,7 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+![Task 3](<screenshots/week 10-assignment 02-screenshot 2.png>).
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +91,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+![Task 4](<screenshots/week 10-assignment 02-screenshot 3.png>).
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +115,7 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+![Task 5](<screenshots/week 10-assignment 02-screenshot 4.png>).
 
 ---
 
@@ -136,7 +136,9 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+![Task 6.A](<screenshots/week 10-assignment 02-screenshot 5.A.png>)
+![Task 6.A](<screenshots/week 10-assignment 02-screenshot 5.B.png>)
+![Task 6.A](<screenshots/week 10-assignment 02-screenshot 5.C.png>).
 
 ## Final Website URL
 
@@ -144,7 +146,7 @@ Add your screenshot here.
 
 Replace the placeholder with your actual website URL:
 
-[Paste your final website URL here]
+[VM Public IP][(http://16.16.194.81/)]
 
 ---
 
@@ -152,7 +154,7 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+[In this assignment, I implemented an automated CI/CD workflow to deploy a static website to an AWS EC2 instance using Azure DevOps. Terraform was used to provision the AWS infrastructure, while Ansible configured the Ubuntu EC2 server, installed and enabled Nginx, and prepared the deployment directory. I configured an Azure DevOps SSH Service Connection and used my self-hosted Linux agent to securely copy the website files to the EC2 instance and verify the deployment. I also configured an automatic pipeline trigger so that changes committed to the repository are automatically deployed to the website. Finally, I verified the deployment through the EC2 public IP and confirmed that the updated website was successfully served by Nginx.]
 
 ---
 
@@ -167,11 +169,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![Linkedin Post](<screenshots/week 10-assignment 02-screenshot 6.png>).
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+[[LinkedIn URL](https://lnkd.in/p/e6PWS4fr)]
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 

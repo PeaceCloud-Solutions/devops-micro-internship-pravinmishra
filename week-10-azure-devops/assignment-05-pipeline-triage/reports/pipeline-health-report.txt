@@ -1,0 +1,41 @@
+========================================
+Azure DevOps Dual-Pipeline Triage Report
+========================================
+Full Name: Peace Nwadinachi Offor
+Timestamp: 2026-09-17T22:43:07Z
+Provider: azure-devops
+Project: Self-Hosted-Agent
+
+Infrastructure Pipeline Run ID: 16
+Infrastructure Pipeline Result: succeeded
+Infrastructure Pipeline console logs retrieved successfully.
+
+Application Pipeline Run ID: 25
+Application Pipeline Result: succeeded
+Application Pipeline console logs retrieved successfully.
+
+Analyzing Infrastructure Pipeline...
+[PASS] Infrastructure Pipeline: No dependency install failure detected
+[PASS] Infrastructure Pipeline: No build or compile failure detected
+[PASS] Infrastructure Pipeline: No test failure detected
+[PASS] Infrastructure Pipeline: No authentication or permission failure detected
+[PASS] Infrastructure Pipeline: No agent or runner availability issue detected
+
+Analyzing Application Pipeline...
+[PASS] Application Pipeline: No dependency install failure detected
+[PASS] Application Pipeline: No build or compile failure detected
+[PASS] Application Pipeline: No test failure detected
+[PASS] Application Pipeline: No authentication or permission failure detected
+[PASS] Application Pipeline: No agent or runner availability issue detected
+
+[PASS] Infrastructure Pipeline latest run succeeded
+[PASS] Application Pipeline latest run succeeded
+Summary:
+PASS: 12
+WARN: 0
+FAIL: 0
+Overall Status: HEALTHY
+Script Exit Code: 0
+Report File: /mnt/c/DMI-COHORT-3-PROJECT/devops-micro-internship-pravinmishra/week-10-azure-devops/assignment-05-pipeline-triage/reports/pipeline-health-report.txt
+Infrastructure Log File: /mnt/c/DMI-COHORT-3-PROJECT/devops-micro-internship-pravinmishra/week-10-azure-devops/assignment-05-pipeline-triage/reports/infra-last-run.log
+Application Log File: /mnt/c/DMI-COHORT-3-PROJECT/devops-micro-internship-pravinmishra/week-10-azure-devops/assignment-05-pipeline-triage/reports/app-last-run.log
