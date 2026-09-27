@@ -96,7 +96,12 @@ Paste your forked repository URL here:
 
 Paste your Linkedin Post URL here:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/posts/peace-offor-aa736a147_devops-cloudcomputing-tech-activity-7481292202913087488-EtPP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
+=======
+`Add your URL here`
+
+>>>>>>> upstream/main
 ---
 
 # Completion Checklist

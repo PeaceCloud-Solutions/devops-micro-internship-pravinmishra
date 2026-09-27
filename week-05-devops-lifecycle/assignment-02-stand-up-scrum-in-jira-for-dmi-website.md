@@ -148,9 +148,29 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 
 ---
 
+# LinkedIn Post (Required)
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+Add your URL here...
+
+#### Screenshot 13 — LinkedIn Post Showing Your Scrum Project Setup and DMI Leaderboard Progress Link
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
+<<<<<<< HEAD
 - Add all required screenshots in your submission
+=======
+- Add all 13 required screenshots in the specified order
+>>>>>>> upstream/main
 - Full name must be visible in required screenshots
 - Do not expose sensitive information (passwords, verification codes, account recovery details)
 
@@ -158,6 +178,7 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 
 # Completion Checklist
 
+<<<<<<< HEAD
 - [-] Task 1: Private team-managed Scrum project created with your name (Screenshot 1)
 - [-] Task 2: Epic "Polish DMI Website UI & Deploy" created (Screenshot 2)
 - [-] Task 3: All six Stories connected to the Epic, assigned to you, with descriptions/acceptance criteria/points/labels (Screenshots 3 & 4)
@@ -168,6 +189,19 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 - [-] Task 8: Burndown Chart opened for Sprint 1 (Screenshot 12)
 - [-] Full Name visible in required screenshots
 - [-] No sensitive data exposed
+=======
+- [ ] Task 1: Private team-managed Scrum Space created with your name (Screenshot 1)
+- [ ] Task 2: Epic "Polish DMI Website UI & Deploy" created (Screenshot 2)
+- [ ] Task 3: All six Stories connected to the Epic, assigned to you, with descriptions/acceptance criteria/points/labels (Screenshots 3 & 4)
+- [ ] Task 4: Four Sub-tasks created under both S2 and S4 (Screenshots 5 & 6)
+- [ ] Task 5: Frontend and devops labels applied to all Stories (Screenshot 7)
+- [ ] Task 6: One-week Sprint 1 started with the required Sprint Goal (Screenshots 8 & 9)
+- [ ] Task 7: Frontend and devops filters demonstrated (Screenshots 10 & 11)
+- [ ] Task 8: Burndown Chart opened for Sprint 1 (Screenshot 12)
+- [ ] LinkedIn post published
+- [ ] Full Name visible in required screenshots
+- [ ] No sensitive data exposed
+>>>>>>> upstream/main
 
 ---
 
