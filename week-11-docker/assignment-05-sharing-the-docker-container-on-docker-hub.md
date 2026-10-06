@@ -26,7 +26,8 @@ Add a screenshot of Docker Hub showing your newly created public repository:
 my-react-app
 ```
 
-Add your screenshot here.
+![Task 1.A](<screenshots/week 11-assignment 05-screenshot 1.A.png>)
+![Task 1.A](<screenshots/week 11-assignment 05-screenshot 1.B.png>).
 
 ---
 
@@ -40,7 +41,7 @@ Login Succeeded
 
 Ensure that your full name is visible and that no password, Personal Access Token, or device code is exposed.
 
-Add your screenshot here.
+![Task 1.B](<screenshots/week 11-assignment 05-screenshot 2.png>).
 
 ---
 
@@ -54,7 +55,7 @@ docker image ls <YOUR_DOCKERHUB_USERNAME>/my-react-app
 
 The output must show the `latest` tag.
 
-Add your screenshot here.
+![Task 1.C](<screenshots/week 11-assignment 05-screenshot 3.png>).
 
 ---
 
@@ -68,7 +69,7 @@ docker push <YOUR_DOCKERHUB_USERNAME>/my-react-app:latest
 
 The output must include a pushed status or image digest.
 
-Add your screenshot here.
+![Task 1.D](<screenshots/week 11-assignment 05-screenshot 4.png>).
 
 ---
 
@@ -76,7 +77,7 @@ Add your screenshot here.
 
 Add a screenshot of your Docker Hub repository showing the uploaded `latest` image tag.
 
-Add your screenshot here.
+![task 1.E](<screesnhots/week 11-assignment 05-screenshot 5.png>).
 
 ---
 
@@ -88,7 +89,7 @@ Add a screenshot of the terminal showing:
 - Successful `docker pull` output
 - `docker image ls` showing the pulled image
 
-Add your screenshot here.
+![Task 1.F](<screenshots/week 11-assignment 05-screenshot 6.png>).
 
 ---
 
@@ -106,7 +107,7 @@ The output must show the running `react-container` with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![Task 1.G](<screenshots/week 11-assignment 05-screenshot 7.png>).
 
 ---
 
@@ -120,13 +121,13 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![Task 1.H](<screenshots/week 11-assignment 05-screenshot 8.png>).
 
 ---
 
 # Docker Hub Repository URL
 
-**Repository URL:** `Add your Docker Hub repository URL here`
+**Repository URL:** `http://16.170.240.216`
 
 ---
 
@@ -138,7 +139,11 @@ Write a short explanation covering:
 - Why a container registry is useful in DevOps workflows
 - Why production deployments should use versioned image tags instead of relying only on `latest`
 
-Write your explanation here.
+Image tagging is required before pushing an image to Docker Hub because the tag identifies the repository, image name, and version associated with the image. In this assignment, I tagged my local react-multistage:latest image as peacecloudsolutions/my-react-app:latest, allowing Docker to identify the correct Docker Hub repository when the image was pushed.
+
+A container registry such as Docker Hub provides a centralized location for storing, managing, and distributing container images. This allows the same tested image to be pulled and deployed across different environments without rebuilding the application each time. In this assignment, I verified this by removing the local image and successfully pulling it again from Docker Hub before running it on my EC2 instance.
+
+Although the latest tag is convenient for learning and simple deployments, production environments should use versioned or immutable tags, such as v1.0.0, build-125, or a commit-based tag. Versioned tags make it easier to identify exactly which application version is deployed, maintain deployment consistency, troubleshoot issues, and roll back to a previous version when necessary.
 
 ---
 
@@ -162,13 +167,13 @@ Include:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://lnkd.in/p/e8wwPjnf`
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![Linkedin Post](<screenshots/week 11-assignment 05-screenshot 9.png>).
 
 ---
 
@@ -187,22 +192,22 @@ Add a screenshot of the published LinkedIn post here.
 
 # Completion Checklist
 
-- [ ] Public `my-react-app` repository created
-- [ ] Docker login completed successfully
-- [ ] `react-multistage:latest` tagged correctly
-- [ ] Image pushed to Docker Hub
-- [ ] `latest` tag verified in Docker Hub
-- [ ] Targeted local image tags removed
-- [ ] Image pulled again from Docker Hub
-- [ ] Pulled image runs successfully
-- [ ] React application is accessible through the VM public IP
-- [ ] Docker Hub repository URL included
-- [ ] Registry and image-tagging notes completed
-- [ ] LinkedIn post URL and screenshot included
-- [ ] All required screenshots included
-- [ ] Full name visible in terminal screenshots
-- [ ] Browser screenshot has a full-name caption
-- [ ] No passwords, tokens, or credentials exposed
+- [-] Public `my-react-app` repository created
+- [-] Docker login completed successfully
+- [-] `react-multistage:latest` tagged correctly
+- [-] Image pushed to Docker Hub
+- [-] `latest` tag verified in Docker Hub
+- [-] Targeted local image tags removed
+- [-] Image pulled again from Docker Hub
+- [-] Pulled image runs successfully
+- [-] React application is accessible through the VM public IP
+- [-] Docker Hub repository URL included
+- [-] Registry and image-tagging notes completed
+- [-] LinkedIn post URL and screenshot included
+- [-] All required screenshots included
+- [-] Full name visible in terminal screenshots
+- [-] Browser screenshot has a full-name caption
+- [-] No passwords, tokens, or credentials exposed
 ---
 
 ## 📌 About DMI & CloudAdvisory

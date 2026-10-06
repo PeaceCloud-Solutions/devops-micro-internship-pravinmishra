@@ -30,7 +30,7 @@ backend/
 docker-compose.yml
 ```
 
-Add your screenshot here.
+![Task 1.A](<screenshots/week 11-assignment 06-screenshot 1.png>).
 
 ---
 
@@ -47,7 +47,8 @@ backend/.dockerignore
 
 Ensure that no real passwords, tokens, or secrets are visible.
 
-Add your screenshot here.
+![Task 1.B](<screenshots/week 11-assignment 06-screenshot 2.A.png>)
+![Task 1.B](<screenshots/week 11-assignment 06-screenshot 2.B.png>).
 
 ---
 
@@ -63,7 +64,7 @@ Prepare Dockerfiles for the frontend and backend services and build both service
 
 Add a screenshot showing the completed `frontend/Dockerfile`.
 
-Add your screenshot here.
+![Task 2.A](<screenshots/week 11-assignment 06-screenshot 3.png>).
 
 ---
 
@@ -71,7 +72,7 @@ Add your screenshot here.
 
 Add a screenshot showing the completed `backend/Dockerfile`.
 
-Add your screenshot here.
+![Task 2.B](<screenshots/week 11-assignment 06-screenshot 4.png>).
 
 ---
 
@@ -83,7 +84,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker compose build
 ```
 
-Add your screenshot here.
+![Task 2.C](<screenshots/week 11-assignment 06-screenshot 5.png>).
 
 ---
 
@@ -105,7 +106,7 @@ Add a screenshot showing the MySQL service in `docker-compose.yml`, including:
 - `mysql_data` volume mount
 - No published MySQL port
 
-Add your screenshot here.
+![Task 3.A](<screenshots/week 11-assignment 06-screenshot 6.png>).
 
 ---
 
@@ -118,7 +119,7 @@ Add a screenshot showing the backend service configuration, including:
 - Browser frontend origin configured for CORS
 - Published backend port
 
-Add your screenshot here.
+![Task 3.B](<screenshots/week 11-assignment 06-screenshot 7.png>).
 
 ---
 
@@ -130,7 +131,7 @@ Add a screenshot showing the frontend service configuration, including:
 - `depends_on` for the backend service
 - Browser-facing `NEXT_PUBLIC_API_URL`
 
-Add your screenshot here.
+![Task 3.C](<screenshots/week 11-assignment 06-screenshot 8.png>).
 
 ---
 
@@ -138,7 +139,7 @@ Add your screenshot here.
 
 Add a screenshot showing the `mysql_data` volume definition in `docker-compose.yml`.
 
-Add your screenshot here.
+![Task 3.D](<screenshots/week 11-assignment 06-screenshot 9.png>).
 
 ---
 
@@ -160,7 +161,7 @@ docker compose ps
 
 The output must show the MySQL, backend, and frontend services running. MySQL must show as healthy.
 
-Add your screenshot here.
+![Task 4.A](<screenshots/week 11-assignment 06-screenshot 10.png>).
 
 ---
 
@@ -174,7 +175,7 @@ docker compose logs mysql backend --tail=50
 
 The logs must show MySQL readiness and successful backend database connection.
 
-Add your screenshot here.
+![Task 4.B](<screenshots/week 11-assignment 06-screenshot 11.png>).
 
 ---
 
@@ -192,7 +193,7 @@ Add a browser screenshot showing successful user registration or login.
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![Task 5.A](<screenshots/week 11-assignment 06-screenshot 12.png>).
 
 ---
 
@@ -202,7 +203,7 @@ Add a browser screenshot showing a created book review visible in the applicatio
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![Task 5.B](<screenshots/week 11-assignment 06-screenshot 13.png>).
 
 ---
 
@@ -213,7 +214,7 @@ Add a browser developer-tools screenshot with:
 - The Network tab showing a successful API request
 - The Console drawer showing no CORS error after the API interaction
 
-Add your screenshot here.
+![Task 5.C](<screenshots/week 11-assignment 06-screenshot 14.png>).
 
 ---
 
@@ -231,7 +232,7 @@ Add a browser screenshot showing the registered user or created review before th
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![Task 6.A](<screenshots/week 11-assignment 06-screenshot 15.png>).
 
 ---
 
@@ -247,7 +248,7 @@ docker compose ps
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+![Task 6.B](<screenshots/week 11-assignment 06-screenshot 16.png>).
 
 ---
 
@@ -257,7 +258,7 @@ Add a browser screenshot showing the same registered user or review after the st
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![Task 6.C](<screenshots/week 11-assignment 06-screenshot 17.png>).
 
 ---
 
@@ -277,13 +278,19 @@ Write a short explanation of 5–8 lines covering:
 - When a full reset is useful
 - Why a full reset must not be used before persistence evidence is captured
 
-Write your explanation here.
+docker compose down stops and removes the containers and networks created by Docker Compose while preserving named volumes by default.
+Keeping the named volume allows the MySQL database files and application data to remain available even after the containers are removed.
+When the Compose stack is started again, MySQL can reuse the existing named volume, preserving registered users and reviews.
+Using docker compose down -v also removes the named volumes associated with the Compose environment.
+Removing the MySQL named volume deletes the persistent database data stored in that volume.
+A full reset is useful when a fresh development environment or completely new database state is required.
+A full reset must not be performed before persistence evidence is captured because it would delete the data needed to demonstrate that the review survives container recreation.
 
 ---
 
 # Final Public Frontend URL
 
-**Frontend URL:** `http://<VM_PUBLIC_IP>:<FRONTEND_PORT>`
+**Frontend URL:** `http://16.170.240.216:3000`
 
 Replace the placeholder with your working application URL.
 
@@ -291,7 +298,7 @@ Replace the placeholder with your working application URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** `https://github.com/PeaceCloud-Solutions/book-review-app.git `
 
 ---
 
@@ -303,37 +310,37 @@ Create a LinkedIn post about the Book Review App deployment and what you learned
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** `https://lnkd.in/p/ejHd2rkH`
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of your published LinkedIn post here.
+![Linkedin post](<screenshots/week 11-assignment 06-screenshot 18.png>).
 
 ---
 
 # Submission Checklist
 
-- [ ] Book Review App repository forked and used
-- [ ] `.env` excluded from Git tracking
-- [ ] `.env.example` contains only safe placeholder values
-- [ ] Frontend and backend Dockerfiles created or confirmed
-- [ ] MySQL health check configured
-- [ ] Backend waits for healthy MySQL
-- [ ] Backend uses `mysql` as the database hostname
-- [ ] Frontend API URL uses the VM public IP and backend port
-- [ ] Backend CORS origin matches the frontend origin
-- [ ] MySQL port 3306 is not publicly exposed
-- [ ] Registration and login work
-- [ ] Book review creation works
-- [ ] Data persists after a non-destructive down/up cycle
-- [ ] Screenshots 1–17 included
-- [ ] Teardown explanation completed
-- [ ] Public frontend URL included
-- [ ] GitHub repository URL included
-- [ ] LinkedIn post URL and screenshot included
-- [ ] Full name visible in required terminal screenshots
-- [ ] Browser screenshots include a full-name caption
-- [ ] No sensitive information exposed
+- [-] Book Review App repository forked and used
+- [-] `.env` excluded from Git tracking
+- [-] `.env.example` contains only safe placeholder values
+- [-] Frontend and backend Dockerfiles created or confirmed
+- [-] MySQL health check configured
+- [-] Backend waits for healthy MySQL
+- [-] Backend uses `mysql` as the database hostname
+- [-] Frontend API URL uses the VM public IP and backend port
+- [-] Backend CORS origin matches the frontend origin
+- [-] MySQL port 3306 is not publicly exposed
+- [-] Registration and login work
+- [-] Book review creation works
+- [-] Data persists after a non-destructive down/up cycle
+- [-] Screenshots 1–17 included
+- [-] Teardown explanation completed
+- [-] Public frontend URL included
+- [-] GitHub repository URL included
+- [-] LinkedIn post URL and screenshot included
+- [-] Full name visible in required terminal screenshots
+- [-] Browser screenshots include a full-name caption
+- [-] No sensitive information exposed
 
 ---
 
