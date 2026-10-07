@@ -103,8 +103,8 @@ This is not a course. It is an internship-style program — real deployments, re
  Week 11 → Docker 
  [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/)
 
-<!-- Week 12 → Kubernetes -->
-<!-- [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) -->
+ Week 12 → Kubernetes 
+ [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) 
 
 <!-- Week 13 → Final Project / Capstone -->
 <!-- [![Week 13 – Capstone](./badges/week-13.svg)](./week-13-final-project/) -->
@@ -141,7 +141,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 08 | Terraform | ✅ Completed | ✅ Solved | [Linkedin post week 08] (https://www.linkedin.com/posts/peace-offor-aa736a147_terraform-aws-devops-activity-7501644790724493312-W0sI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 08] (https://medium.com/@poffor762/from-terraform-basics-to-a-modular-aws-deployment-my-week-08-epicbook-project-d565fa09d971) |
 | 09 | Ansible | ✅ Completed | ✅ Solved | [Linkedin post week 09] (https://www.linkedin.com/posts/peace-offor-aa736a147_devops-ansible-terraform-activity-7504138582903877633-PAX3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 09] (https://medium.com/@poffor762/from-manual-server-management-to-ansible-ad-hoc-automation-fe10940e7d53) |
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Solved | [Linkedin post week 10] (https://www.linkedin.com/posts/peace-offor-aa736a147_devops-azuredevops-devopsintern-activity-7505771461752811520-9vMj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ) | [Blog post week 10] (https://medium.com/@poffor762/automating-static-website-deployment-to-aws-ec2-with-azure-devops-ci-cd-c4d393a8cd35?sharedUserId=poffor762) |
-| 11 | Docker | ✅ Completed | ✅ Completed | [Linkedin post week 11] (https://lnkd.in/p/eDj5VcfF) | [Blog post week 11] (https://medium.com/@poffor762/from-505-mb-to-26-6-mb-optimizing-a-react-application-with-multi-stage-docker-builds-ff54a1ef4afc?sharedUserId=poffor762) |
+| 11 | Docker | ✅ Completed | ✅ Completed | [Linkedin post week 11] (https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-docker-ugcPost-7511233011196022785-7C36) | [Blog post week 11] (https://medium.com/@poffor762/from-505-mb-to-26-6-mb-optimizing-a-react-application-with-multi-stage-docker-builds-ff54a1ef4afc?sharedUserId=poffor762) |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
