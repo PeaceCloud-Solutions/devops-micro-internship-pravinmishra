@@ -32,7 +32,7 @@ Create and enter the dedicated Deployment lab directory.
 
 #### Screenshot 01 — Output of `pwd` showing the directory ending in `/k8s-labs/deployments`
 
-Add your screenshot here.
+![Task 1](<screenshots/week 12-assignment 03-screenshot -01.png>).
 
 ---
 
@@ -46,13 +46,13 @@ Create a two-replica NGINX Deployment and verify the automatically managed Repli
 
 #### Screenshot 02 — Completed basic `nginx-deployment.yaml` showing two replicas and the initial NGINX image
 
-Add your screenshot here.
+![Task 2.A](<screenshots/week 12-assignment 03-screenshot -02.png>).
 
 ---
 
 #### Screenshot 03 — Successful apply output and verification output showing the Deployment, its automatically created ReplicaSet, and two Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+![Task 2.B](<screenshots/week 12-assignment 03-screenshot -03.png>).
 
 ---
 
@@ -66,13 +66,13 @@ Configure RollingUpdate to maintain the desired available replica count during a
 
 #### Screenshot 04 — Updated YAML showing `RollingUpdate`, `maxSurge: 1`, and `maxUnavailable: 0`
 
-Add your screenshot here.
+![Task 3.A](<screenshots/week 12-assignment 03-screenshot -03.png>).
 
 ---
 
 #### Screenshot 05 — Successful apply output and Deployment details showing the configured rolling-update strategy
 
-Add your screenshot here.
+![Task 3.B](<screenshots/week 12-assignment 03-screenshot -05.png>).
 
 ---
 
@@ -86,25 +86,25 @@ Update NGINX to 1.23.1, observe the rollout, and return to the previous stable r
 
 #### Screenshot 06 — Image-update command and rollout status showing successful completion
 
-Add your screenshot here.
+![Task 4.A](<screenshots/week 12-assignment 03-screenshot -06.png>).
 
 ---
 
 #### Screenshot 07 — ReplicaSet output showing the previous and updated ReplicaSets, and Deployment details showing `nginx:1.23.1`
 
-Add your screenshot here.
+![Task 4.B](<screenshots/week 12-assignment 03-screenshot -07.png>).
 
 ---
 
 #### Screenshot 08 — Rollback command and rollout status showing successful completion
 
-Add your screenshot here.
+![Task 4.C](<screenshots/week 12-assignment 03-screenshot -08.png>).
 
 ---
 
 #### Screenshot 09 — Rollout history and Deployment details showing the restored `nginx:1.21.1` image
 
-Add your screenshot here.
+![Task 4.D](<screenshots/week 12-assignment 03-screenshot -09.png>).
 
 ---
 
@@ -118,13 +118,13 @@ Scale the workload to five replicas and return it to two.
 
 #### Screenshot 10 — Scale-up command and output showing five Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+![Task 5.A](<screenshots/week 12-assignment 03-screenshot -10.png>).
 
 ---
 
 #### Screenshot 11 — Scale-down command and output showing the final two Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+![Task 5.B](<screenshots/week 12-assignment 03-screenshot -11.png>).
 
 ---
 
@@ -162,7 +162,7 @@ I also scaled my Deployment from two Pods to five and back to two!
 
 #### Screenshot 12 — Published WhatsApp Status showing your Kubernetes Deployment message and generated DMI leaderboard progress link
 
-Add your screenshot here.
+![Task 6](<screenshots/week 12-assignment 03-screenshot -12.png>).
 
 A draft or editing screen is not sufficient.
 
@@ -172,7 +172,13 @@ A draft or editing screen is not sufficient.
 
 Write a short note explaining how Deployments manage ReplicaSets, perform rolling updates and rollbacks, and scale Pods.
 
-Add your answer here.
+In this assignment, I learned how Kubernetes Deployments manage ReplicaSets and Pods while supporting rolling updates, rollbacks, and scaling.
+
+I created an NGINX Deployment with two replicas and configured the RollingUpdate strategy using maxSurge: 1 and maxUnavailable: 0. These settings allow Kubernetes to gradually replace Pods while maintaining the desired number of available replicas.
+
+I updated the NGINX image from version 1.21.1 to 1.23.1 and verified that the rollout completed successfully. I then performed a rollback to restore the previous image version.
+
+Finally, I scaled the Deployment from two Pods to five and back to two. This helped me understand how Kubernetes automatically manages ReplicaSets, maintains the desired number of Pods, and simplifies application updates and scaling.
 
 ---
 
@@ -189,23 +195,23 @@ Add your answer here.
 
 # Completion Checklist
 
-- [ ] Completed Task 0
-- [ ] Created the deployments directory (Screenshot 01)
-- [ ] Created the basic two-replica NGINX Deployment manifest (Screenshot 02)
-- [ ] Applied the Deployment and verified its ReplicaSet and two running Pods (Screenshot 03)
-- [ ] Added RollingUpdate with `maxSurge: 1` and `maxUnavailable: 0` (Screenshot 04)
-- [ ] Applied and verified the rolling-update strategy (Screenshot 05)
-- [ ] Updated NGINX to 1.23.1 and confirmed rollout completion (Screenshot 06)
-- [ ] Inspected the ReplicaSets and verified the updated image (Screenshot 07)
-- [ ] Rolled back the update and confirmed rollout completion (Screenshot 08)
-- [ ] Reviewed rollout history and verified the restored image (Screenshot 09)
-- [ ] Scaled to five running Pods (Screenshot 10)
-- [ ] Scaled back to two running Pods (Screenshot 11)
-- [ ] Published the WhatsApp Status with the generated leaderboard progress link (Screenshot 12)
-- [ ] Submitted the final `nginx-deployment.yaml`
-- [ ] Included screenshots 01–12
-- [ ] Completed the Lab Summary
-- [ ] No sensitive data exposed
+- [-] Completed Task 0
+- [-] Created the deployments directory (Screenshot 01)
+- [-] Created the basic two-replica NGINX Deployment manifest (Screenshot 02)
+- [-] Applied the Deployment and verified its ReplicaSet and two running Pods (Screenshot 03)
+- [-] Added RollingUpdate with `maxSurge: 1` and `maxUnavailable: 0` (Screenshot 04)
+- [-] Applied and verified the rolling-update strategy (Screenshot 05)
+- [-] Updated NGINX to 1.23.1 and confirmed rollout completion (Screenshot 06)
+- [-] Inspected the ReplicaSets and verified the updated image (Screenshot 07)
+- [-] Rolled back the update and confirmed rollout completion (Screenshot 08)
+- [-] Reviewed rollout history and verified the restored image (Screenshot 09)
+- [-] Scaled to five running Pods (Screenshot 10)
+- [-] Scaled back to two running Pods (Screenshot 11)
+- [-] Published the WhatsApp Status with the generated leaderboard progress link (Screenshot 12)
+- [-] Submitted the final `nginx-deployment.yaml`
+- [-] Included screenshots 01–12
+- [-] Completed the Lab Summary
+- [-] No sensitive data exposed
 
 ---
 
