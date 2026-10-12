@@ -32,7 +32,7 @@ Create and enter a dedicated directory for the readiness-probe lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/health-probes-readiness`
 
-Add your screenshot here.
+![Task 1](<screenshots/week 12-assignment 05-screenshot -01.png>).
 
 ---
 
@@ -40,11 +40,11 @@ Add your screenshot here.
 
 **1. What is the purpose of a readiness probe?**
 
-Add your answer here.
+A readiness probe helps Kubernetes determine whether a container is prepared to receive application traffic. It checks a defined condition, such as an HTTP endpoint, before marking the Pod as ready. This prevents traffic from being directed to an application that is still starting or experiencing problems.
 
 **2. Why is a Pod being Running not always enough to confirm it can serve traffic?**
 
-Add your answer here.
+A Pod can be in the Running state while its application is still initializing, loading configuration, or waiting for dependencies. Running only indicates that the container is executing, while readiness confirms that the application can respond successfully to requests.
 
 ---
 
@@ -58,19 +58,19 @@ Create a baseline NGINX Deployment with two replicas and no readiness probe.
 
 #### Screenshot 2 — Completed `00-nginx-deploy-baseline.yaml` manifest
 
-Add your screenshot here.
+![Task 2.A](<screenshots/week 12-assignment 05-screenshot -02.png>).
 
 ---
 
 #### Screenshot 3 — Output showing a successful rollout and two running NGINX Pods
 
-Add your screenshot here.
+![Task 2.B](<screenshots/week 12-assignment 05-screenshot -03.png>).
 
 ---
 
 #### Screenshot 4 — Relevant output from `kubectl describe deployment nginx-deployment`
 
-Add your screenshot here.
+![Task 2.C](<screenshots/week 12-assignment 05-screenshot -04.png>).
 
 ---
 
@@ -78,15 +78,15 @@ Add your screenshot here.
 
 **1. How many replicas does this Deployment maintain?**
 
-Add your answer here.
+The Deployment maintains two NGINX replicas. Kubernetes uses a ReplicaSet to ensure that the desired number of Pods remains available.
 
 **2. What does `maxUnavailable: 0` mean during a rolling update?**
 
-Add your answer here.
+It means Kubernetes should not intentionally reduce the number of available Pods below the desired replica count during a rolling update. With two replicas, Kubernetes must maintain two available Pods while introducing new ones.
 
 **3. Is a readiness probe configured in this baseline Deployment?**
 
-Add your answer here.
+No. The baseline Deployment does not contain a readiness probe. Kubernetes therefore does not perform an application-specific HTTP readiness check.
 
 ---
 
@@ -100,19 +100,19 @@ Add an HTTP readiness probe so Kubernetes checks whether each NGINX container is
 
 #### Screenshot 5 — Completed `01-nginx-deploy-readiness.yaml` manifest showing the readiness probe
 
-Add your screenshot here.
+![Task 3.A](<screenshots/week 12-assignment 05-screenshot -05.png>).
 
 ---
 
 #### Screenshot 6 — Output of the successful rollout and ready Pods
 
-Add your screenshot here.
+![Task 3.B](<screenshots/week 12-assignment 05-screenshot -06.png>).
 
 ---
 
 #### Screenshot 7 — Pod description showing readiness conditions and readiness probe details
 
-Add your screenshot here.
+![Task 3.D](<screenshots/week 12-assignment 05-screenshot -07.png>).
 
 ---
 
@@ -120,19 +120,19 @@ Add your screenshot here.
 
 **1. What path and port does the readiness probe check?**
 
-Add your answer here.
+The readiness probe checks the NGINX root path / using HTTP on port 80. A successful response indicates that the container can serve requests.
 
 **2. What does `initialDelaySeconds: 2` do?**
 
-Add your answer here.
+It instructs Kubernetes to wait approximately two seconds after the container starts before beginning readiness checks. This gives the application a short period to initialize.
 
 **3. What does `periodSeconds: 5` do?**
 
-Add your answer here.
+It configures Kubernetes to perform readiness checks approximately every five seconds, allowing the system to monitor whether the application remains ready.
 
 **4. What must happen before Kubernetes considers this Pod ready?**
 
-Add your answer here.
+The readiness probe must successfully reach the configured HTTP endpoint. With successThreshold: 1, one successful readiness check is sufficient for the container to be considered ready.
 
 ---
 
@@ -146,25 +146,25 @@ Intentionally fail the readiness probe, observe the NotReady behavior, and then 
 
 #### Screenshot 8 — `02-nginx-readiness-broken.yaml` showing `/does-not-exist`
 
-Add your screenshot here.
+![Task 4.A](<screenshots/week 12-assignment 05-screenshot -08.png>).
 
 ---
 
 #### Screenshot 9 — Output showing the rollout timeout or incomplete rollout
 
-Add your screenshot here.
+![Task 4.B](<screenshots/week 12-assignment 05-screenshot -09.png>).
 
 ---
 
 #### Screenshot 10 — Pod details showing `Ready: False` or readiness-probe failure events
 
-Add your screenshot here.
+![Task 4.C](<screenshots/week 12-assignment 05-screenshot -10.png>).
 
 ---
 
 #### Screenshot 11 — Output showing successful rollout and ready Pods after the fix
 
-Add your screenshot here.
+![Task 4.D](<screenshots/week 12-assignment 05-screenshot -11.png>).
 
 ---
 
@@ -172,19 +172,19 @@ Add your screenshot here.
 
 **1. Why did the readiness probe fail?**
 
-Add your answer here.
+The readiness probe failed because I intentionally changed the HTTP path from / to /does-not-exist. Since the NGINX server did not have a resource at that path, it returned an HTTP 404 response, causing the readiness check to fail.
 
 **2. What happened to the Pod readiness status?**
 
-Add your answer here.
+The newly created Pod remained in the Running state but was marked NotReady because its readiness probe failed. This demonstrated that a running container is not necessarily ready to serve traffic.
 
 **3. Why did the rollout fail to complete?**
 
-Add your answer here.
+The rollout could not complete because the new Pod failed its readiness checks. Kubernetes could not count the Pod as available, so it did not replace the healthy Pods as required to finish the rolling update.
 
 **4. How did you restore the Deployment successfully?**
 
-Add your answer here.
+I restored the working readiness configuration by changing the HTTP probe path back to / and applying the corrected Deployment manifest. After the readiness checks succeeded, Kubernetes completed the rollout and returned the Deployment to its desired healthy replica count.
 
 ---
 
@@ -198,37 +198,37 @@ Observe how readiness prevents a bad new Pod from replacing healthy Pods during 
 
 #### Screenshot 12 — Successful update command and rollout status
 
-Add your screenshot here.
+![Task 5.A](<screenshots/week 12-assignment 05-screenshot -12.png>).
 
 ---
 
 #### Screenshot 13 — ReplicaSets and Pods after the successful rolling update
 
-Add your screenshot here.
+![Task 5.B](<screenshots/week 12-assignment 05-screenshot -13.png>).
 
 ---
 
 #### Screenshot 14 — Completed `04-readiness-broken-patch.yaml`
 
-Add your screenshot here.
+![Task 5.C](<screenshots/week 12-assignment 05-screenshot -14.png>).
 
 ---
 
 #### Screenshot 15 — Output showing the expected stalled rollout or timeout
 
-Add your screenshot here.
+![Task 5.D](<screenshots/week 12-assignment 05-screenshot -15.png>).
 
 ---
 
 #### Screenshot 16 — Deployment or Pod output showing the effect of the broken readiness probe
 
-Add your screenshot here.
+![Task 5.E](<screenshots/week 12-assignment 05-screenshot -16.png>).
 
 ---
 
 #### Screenshot 17 — Successful rollout status after restoring the fixed configuration
 
-Add your screenshot here.
+![Task 5.F](<screenshots/week 12-assignment 05-screenshot -17.png>).
 
 ---
 
@@ -236,19 +236,19 @@ Add your screenshot here.
 
 **1. What happened during the successful rolling update?**
 
-Add your answer here.
+During the successful rolling update, Kubernetes created a new ReplicaSet for the updated NGINX image. New Pods were gradually introduced and passed their readiness checks before Kubernetes removed the older Pods. This allowed the Deployment to update while maintaining application availability.
 
 **2. Why did Kubernetes create a new ReplicaSet?**
 
-Add your answer here.
+Kubernetes created a new ReplicaSet because I changed the container image in the Deployment's Pod template. Each Deployment revision with a different Pod template is managed through a ReplicaSet, allowing Kubernetes to track changes and manage rolling updates.
 
 **3. Why were the new Pods unable to replace the existing healthy Pods after readiness was broken?**
 
-Add your answer here.
+The new Pods could not replace the existing healthy Pods because their readiness probes were configured to check /does-not-exist, which returned HTTP 404. Kubernetes marked these Pods NotReady, preventing them from counting as available during the rollout.
 
 **4. How does `maxUnavailable: 0` protect availability during this rollout?**
 
-Add your answer here.
+The maxUnavailable: 0 setting instructs Kubernetes to maintain the desired number of available replicas during a rolling update. When the new Pods failed readiness checks, Kubernetes retained the older healthy Pods rather than reducing application availability.
 
 ---
 
@@ -262,11 +262,11 @@ Share what you learned about Kubernetes readiness probes and how they protect ro
 
 #### Screenshot 18 — Published LinkedIn post
 
-Add your screenshot here.
+![LinkedIn Post](<screenshots/week 12-assignment 05-screenshot -18.png>).
 
 #### Linkedin post link
 
-Add your post link here
+[LinkedIn Post](https://www.linkedin.com/posts/peace-offor-aa736a147_kubernetes-devops-cloudnative-ugcPost-7514776475028340736-8sAt)
 
 ---
 
@@ -284,29 +284,29 @@ Add your post link here
 
 # Completion Checklist
 
-- [ ] Learning cluster confirmed and previous assignment resources removed where applicable
-- [ ] Readiness-probe lab directory created (Screenshot 1)
-- [ ] Baseline Deployment created successfully (Screenshot 2)
-- [ ] Two baseline Pods running and successful rollout verified (Screenshot 3)
-- [ ] Baseline Deployment details reviewed (Screenshot 4)
-- [ ] Readiness probe added successfully (Screenshot 5)
-- [ ] Successful readiness rollout verified (Screenshot 6)
-- [ ] Pod readiness conditions and probe details inspected (Screenshot 7)
-- [ ] Broken readiness configuration created (Screenshot 8)
-- [ ] Stalled rollout or timeout observed (Screenshot 9)
-- [ ] NotReady status or readiness-probe failure events captured (Screenshot 10)
-- [ ] Working readiness configuration restored (Screenshot 11)
-- [ ] Successful image update completed (Screenshot 12)
-- [ ] ReplicaSets and Pods inspected after the update (Screenshot 13)
-- [ ] Broken-readiness patch created (Screenshot 14)
-- [ ] Stalled rollout observed after the patch (Screenshot 15)
-- [ ] Effect of broken readiness captured (Screenshot 16)
-- [ ] Final recovery completed (Screenshot 17)
-- [ ] LinkedIn post published (Screenshot 18)
-- [ ] Notes for Tasks 1–5 completed
-- [ ] Required manifests included
-- [ ] All screenshots are clear and readable
-- [ ] No sensitive data exposed
+- [-] Learning cluster confirmed and previous assignment resources removed where applicable
+- [-] Readiness-probe lab directory created (Screenshot 1)
+- [-] Baseline Deployment created successfully (Screenshot 2)
+- [-] Two baseline Pods running and successful rollout verified (Screenshot 3)
+- [-] Baseline Deployment details reviewed (Screenshot 4)
+- [-] Readiness probe added successfully (Screenshot 5)
+- [-] Successful readiness rollout verified (Screenshot 6)
+- [-] Pod readiness conditions and probe details inspected (Screenshot 7)
+- [-] Broken readiness configuration created (Screenshot 8)
+- [-] Stalled rollout or timeout observed (Screenshot 9)
+- [-] NotReady status or readiness-probe failure events captured (Screenshot 10)
+- [-] Working readiness configuration restored (Screenshot 11)
+- [-] Successful image update completed (Screenshot 12)
+- [-] ReplicaSets and Pods inspected after the update (Screenshot 13)
+- [-] Broken-readiness patch created (Screenshot 14)
+- [-] Stalled rollout observed after the patch (Screenshot 15)
+- [-] Effect of broken readiness captured (Screenshot 16)
+- [-] Final recovery completed (Screenshot 17)
+- [-] LinkedIn post published (Screenshot 18)
+- [-] Notes for Tasks 1–5 completed
+- [-] Required manifests included
+- [-] All screenshots are clear and readable
+- [-] No sensitive data exposed
 
 ---
 
