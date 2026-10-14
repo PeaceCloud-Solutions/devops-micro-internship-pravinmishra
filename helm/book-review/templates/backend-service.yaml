@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: book-review-backend
+  labels:
+    app: book-review-backend
+
+spec:
+  type: ClusterIP
+
+  selector:
+    app: book-review-backend
+
+  ports:
+    - name: http
+      protocol: TCP
+      port: 3001
+      targetPort: 3001

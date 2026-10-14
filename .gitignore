@@ -5,3 +5,5 @@ CLAUDE.md
 # Assignment 05 generated pipeline logs
 week-10-azure-devops/assignment-05-pipeline-triage/reports/app-last-run.log
 week-10-azure-devops/assignment-05-pipeline-triage/reports/infra-last-run.log
+helm/book-review/backups/
+helm/book-review/values.yaml.backup
