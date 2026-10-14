@@ -24,8 +24,9 @@ for file in "${STAGED_FILES[@]}"; do
     BLOCKED=1
   fi
 
-  # Check the staged content for other secret-like assignments.
-  if git show ":$file" 2>/dev/null |
+    # Check the staged content for other secret-like assignments.
+  if git show ":$file" | \
+    grep -aEiv '^[[:space:]]*imagePullSecrets:[[:space:]]*\[\][[:space:]]*(#.*)?$' | \
     grep -aEiq '(password|passwd|secret|api[_-]?key|token)[[:space:]]*[:=]'; then
     echo "BLOCKED: Possible hardcoded secret detected in $file"
     BLOCKED=1
