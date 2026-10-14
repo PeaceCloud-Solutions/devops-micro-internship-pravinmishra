@@ -24,7 +24,7 @@ Deploy the Book Review App as a production-style three-tier application using Ku
 
 **GitHub Manifests or Helm Chart URL:** [GitHub Helm Chart URL](https://github.com/PeaceCloud-Solutions/devops-micro-internship-pravinmishra/tree/main/helm/book-review).
 
-**Architecture Diagram:** ![ Three-Tier Kubernetes Architecture Diagram](<week 12-assignment 10-screenshot -20-1.png>).
+**Architecture Diagram:** ![ Three-Tier Kubernetes Architecture Diagram](<screenshots/week 12-assignment 10-screenshot -3.png>).
 
 ---
 
