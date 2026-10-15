@@ -192,7 +192,7 @@ Configure the supplied triage script for the selected workload and validate its 
 
 #### Screenshot 7 — Preflight, summary, and exit-code logic
 
-![Task 4.C](<screenshots/week 12-assignment 11-screenshot 7.png>).
+![Task 4.C](<screenshots/week 12-assignment 11-screenshot -7.png>).
 
 ---
 
@@ -260,7 +260,7 @@ Run the script on the healthy application and confirm that it contains no failed
 
 #### Screenshot 10 — Captured exit code and final summary
 
-![Task 5.B](<screenshots/week 12-assignment 11-screenshot -10.pngpng>).
+![Task 5.B](<screenshots/week 12-assignment 11-screenshot -10.png>).
 
 ### Notes
 
