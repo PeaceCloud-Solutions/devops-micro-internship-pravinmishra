@@ -1,0 +1,57 @@
+Full Name: Peace Nwadinachi Offor
+==============================================
+KUBERNETES INCIDENT TRIAGE REPORT
+==============================================
+Timestamp: 2026-10-15T02:45:53+01:00
+Namespace: k8s-triage-lab
+Deployment: triage-demo
+Service: triage-demo
+Pod selector: app=triage-demo
+
+===== KUBERNETES CONTEXT =====
+dmi-week12-aks
+
+===== DEPLOYMENT =====
+NAME          READY   UP-TO-DATE   AVAILABLE   AGE
+triage-demo   1/1     1            1           6m59s
+PASS: All 1 replicas are ready.
+
+===== PODS =====
+NAME                           READY   STATUS             RESTARTS   AGE     IP             NODE                                NOMINATED NODE   READINESS GATES
+triage-demo-5544457d7b-j7w7b   1/1     Running            0          7m3s    10.244.0.188   aks-nodepool1-17275201-vmss000000   <none>           <none>
+triage-demo-6d7ccdfbdb-qbjdw   0/1     ImagePullBackOff   0          4m42s   10.244.0.91    aks-nodepool1-17275201-vmss000000   <none>           <none>
+
+===== SERVICE =====
+NAME          TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+triage-demo   ClusterIP   10.0.22.82   <none>        80/TCP    6m30s
+
+===== SERVICE ENDPOINTS =====
+Warning: v1 Endpoints is deprecated in v1.33+; use discovery.k8s.io/v1 EndpointSlice
+NAME          ENDPOINTS         AGE
+triage-demo   10.244.0.188:80   6m32s
+Warning: v1 Endpoints is deprecated in v1.33+; use discovery.k8s.io/v1 EndpointSlice
+PASS: Ready endpoint IPs: 10.244.0.188 
+
+===== ENDPOINTSLICES =====
+NAME                ADDRESSTYPE   PORTS   ENDPOINTS                  AGE
+triage-demo-5n9gw   IPv4          80      10.244.0.188,10.244.0.91   6m34s
+
+===== RECENT EVENTS =====
+LAST SEEN   TYPE      REASON              OBJECT                              MESSAGE
+7m9s        Normal    ScalingReplicaSet   deployment/triage-demo              Scaled up replica set triage-demo-5544457d7b from 0 to 1
+7m9s        Normal    SuccessfulCreate    replicaset/triage-demo-5544457d7b   Created pod: triage-demo-5544457d7b-j7w7b
+7m8s        Normal    Pulled              pod/triage-demo-5544457d7b-j7w7b    Container image "nginx:stable" already present on machine and can be accessed by the pod
+7m8s        Normal    Created             pod/triage-demo-5544457d7b-j7w7b    Container created
+7m8s        Normal    Started             pod/triage-demo-5544457d7b-j7w7b    Container started
+7m8s        Normal    Scheduled           pod/triage-demo-5544457d7b-j7w7b    Successfully assigned k8s-triage-lab/triage-demo-5544457d7b-j7w7b to aks-nodepool1-17275201-vmss000000
+4m49s       Normal    ScalingReplicaSet   deployment/triage-demo              Scaled up replica set triage-demo-6d7ccdfbdb from 0 to 1
+108s        Normal    Pulling             pod/triage-demo-6d7ccdfbdb-qbjdw    Pulling image "nginx:assignment11-invalid-image"
+108s        Warning   Failed              pod/triage-demo-6d7ccdfbdb-qbjdw    Error: ErrImagePull
+7s          Normal    BackOff             pod/triage-demo-6d7ccdfbdb-qbjdw    Back-off pulling image "nginx:assignment11-invalid-image"
+56s         Warning   Failed              pod/triage-demo-6d7ccdfbdb-qbjdw    Error: ImagePullBackOff
+4m48s       Normal    SuccessfulCreate    replicaset/triage-demo-6d7ccdfbdb   Created pod: triage-demo-6d7ccdfbdb-qbjdw
+108s        Warning   Failed              pod/triage-demo-6d7ccdfbdb-qbjdw    Failed to pull image "nginx:assignment11-invalid-image": rpc error: code = NotFound desc = failed to pull and unpack image "docker.io/library/nginx:assignment11-invalid-image": failed to resolve image: docker.io/library/nginx:assignment11-invalid-image: not found
+4m48s       Normal    Scheduled           pod/triage-demo-6d7ccdfbdb-qbjdw    Successfully assigned k8s-triage-lab/triage-demo-6d7ccdfbdb-qbjdw to aks-nodepool1-17275201-vmss000000
+
+===== FINAL TRIAGE RESULT =====
+HEALTHY: Deployment and Service backends are ready.
