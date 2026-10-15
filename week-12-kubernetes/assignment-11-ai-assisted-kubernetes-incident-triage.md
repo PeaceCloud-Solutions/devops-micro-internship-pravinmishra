@@ -42,13 +42,13 @@ Identify the actual application configuration and prove that the selected worklo
 
 #### Screenshot 1 — Healthy Pods and ready Service backends
 
-Add your screenshot here.
+![Task 1.A](<screenshots/week 12-assignment 11-screenshot -1.png>).
 
 ---
 
 #### Screenshot 2 — Workspace directory structure
 
-Add your screenshot here.
+![Task 1.B](<screenshots/week 12-assignment 11-screenshot -2.png>).
 
 ### Notes
 
@@ -92,7 +92,7 @@ Define the project configuration, incident workflow, and safety boundary for Cla
 
 #### Screenshot 3 — CLAUDE.md showing application configuration, workflow, safety rules, and output rules
 
-Add your screenshot here.
+![Task 2](<screenshots/week 12-assignment 11-screenshot -3.png>).
 
 ### Notes
 
@@ -134,7 +134,7 @@ Ask Claude Code to explain the five health checks before running the supplied sc
 
 #### Screenshot 4 — Claude Code showing the five-check read-only plan
 
-Add your screenshot here.
+![Task 3](<screenshots/week 12-assignment 11-screenshot -4.png>).
 
 ### Notes
 
@@ -180,25 +180,25 @@ Configure the supplied triage script for the selected workload and validate its 
 
 #### Screenshot 5 — Script configuration variables and checks array
 
-Add your screenshot here.
+![Task 4.A](<screenshots/week 12-assignment 11-screenshot -5.png>).
 
 ---
 
 #### Screenshot 6 — Functions for status, readiness, restarts, events, and Service backends
 
-Add your screenshot here.
+![Task 4.B](<screenshots/week 12-assignment 11-screenshot -6.png>).
 
 ---
 
 #### Screenshot 7 — Preflight, summary, and exit-code logic
 
-Add your screenshot here.
+![Task 4.C](<screenshots/week 12-assignment 11-screenshot 7.png>).
 
 ---
 
 #### Screenshot 8 — Successful syntax validation and executable permission
 
-Add your screenshot here.
+![Task 4.D](<screenshots/week 12-assignment 11-screenshot -8.png>).
 
 ### Notes
 
@@ -254,13 +254,13 @@ Run the script on the healthy application and confirm that it contains no failed
 
 #### Screenshot 9 — Baseline report showing your full name and all checks
 
-Add your screenshot here.
+![Task 5.A](<screenshots/week 12-assignment 11-screenshot -9.png>).
 
 ---
 
 #### Screenshot 10 — Captured exit code and final summary
 
-Add your screenshot here.
+![Task 5.B](<screenshots/week 12-assignment 11-screenshot -10.pngpng>).
 
 ### Notes
 
@@ -310,13 +310,14 @@ Connect the Bash script to a manually invoked Claude Code evidence-analysis work
 
 #### Screenshot 11 — SKILL.md showing frontmatter and safety rules
 
-Add your screenshot here.
+![Task 6.A](<screenshots/week 12-assignment 11-screenshot -11.png>).
 
 ---
 
 #### Screenshot 12 — Baseline `/k8s-triage` analysis
 
-Add your screenshot here.
+![Task 6.B](<screenshots/week 12-assignment 11-screenshot -12.A.png>)
+![Task 6.B](<screenshots/week 12-assignment 11-screenshot -12.B.png>).
 
 ### Notes
 
@@ -362,19 +363,21 @@ Create one controlled failure, save its evidence, and let Claude analyze it with
 
 #### Screenshot 13 — Failed or unready Pod evidence and current Service backends
 
-Add your screenshot here.
+![Task 7.A](<screenshots/week 12-assignment 11-screenshot -13.png>).
 
 ---
 
 #### Screenshot 14 — Failed `/k8s-triage` analysis with evidence and a suggested manual recovery command
 
-Add your screenshot here.
+![Task 7.B](<screenshots/week 12-assignment 11-screenshot -14.A.png>)
+![Task 7.B](<screenshots/week 12-assignment 11-screenshot -14.B.png>)
+![Task 7.B](<screenshots/week 12-assignment 11-screenshot -14.C.png>).
 
 ---
 
 #### Screenshot 15 — Saved `incident-failure-report.txt`
 
-Add your screenshot here.
+![Task 7.C](<screenshots/week 12-assignment 11-screenshot -15.png>).
 
 ### Notes
 
@@ -438,25 +441,26 @@ Restore the healthy configuration yourself and verify recovery using a second tr
 
 #### Screenshot 16 — Recovered Pods and ready Service backends
 
-Add your screenshot here.
+![Task 8.A](<screenshots/week 12-assignment 11-screenshot -16.png>).
 
 ---
 
 #### Screenshot 17 — Recovered `/k8s-triage` analysis
 
-Add your screenshot here.
+![Task 8.B](<screenshots/week 12-assignment 11-screenshot -17.png>).
 
 ---
 
 #### Screenshot 18 — Reports directory showing failure and recovery reports
 
-Add your screenshot here.
+![Task 8.C](<screenshots/week 12-assignment 11-screenshot -18.png>).
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` with all required sections
 
-Add your screenshot here.
+![Task 8.D](<screenshots/week 12-assignment 11-screenshot -19.A.png>)
+![Task 8.D](<screenshots/week 12-assignment 11-screenshot -19.B.png>).
 
 ### Notes
 
@@ -534,11 +538,11 @@ Share the incident-triage workflow you completed and explain the role of human c
 
 #### Screenshot 20 — Published LinkedIn post about your Kubernetes incident-triage workflow
 
-Add your screenshot here.
+![Task 9](<screenshots/week 12-assignment 11-screenshot -20.png>).
 
 ### LinkedIn Post URL
 
-Add your published LinkedIn post URL here.
+[LinkedIn Post URL](https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-kubernetes-devops-ugcPost-7516390597448859649-faaW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ).
 
 ---
 
